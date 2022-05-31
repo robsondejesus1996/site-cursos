@@ -1,13 +1,16 @@
+import Image from "next/image";
+import styles from "../styles/Footer.module.css";
+
 export default function Footer() {
   return (
-      <>
-      
-      <h1>VISITE</h1>
-      <p>Universidade para o Desenvolvimento do Alto Vale do Itajaí - Unidavi</p>
-      <p>Rua Dr. Guilherme Gemballa, 13 Jardim America, Rio do Sul - SC</p>
-      <p>LOGO UNIDAVI</p>
-      </>
-  )
-   
-   
+    <>
+      <footer className={styles.footer}>
+        <img
+          src="/images/logo-unidavi-muitoalemdoensino.png"
+          className={styles.image}
+        />
+        
+      </footer>
+    </>
+  );
 }
