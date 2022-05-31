@@ -1,0 +1,21 @@
+.homeAgency {
+  background: #443a8b url(/images/topo-pagina-efeito.jpg) center bottom fixed
+    no-repeat;
+  width: 1900px;
+  height: 1000px;
+}
+
+.h3 {
+  text-align: center;
+  color: #fff;
+  font-size: 100px;
+}
+.p {
+    text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	color: #b2b1b8;
+	font-size: 18px;
+	letter-spacing: 0.5px;
+	line-height: 30px;
+	text-rendering: optimizeLegibility;
+}
