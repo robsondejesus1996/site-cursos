@@ -4,40 +4,46 @@ import styles from "../styles/Navbar.module.css";
 
 export default function Navbar() {
   return (
+    
     <ul className={styles.navbar}>
       <li>
+        <Link href="/">
+          <a><img src="/images/logo.png"/></a>
+        </Link>
+      </li>
+      <li>
         <Link href="/sobreCursos">
-          <a>SOBRE CURSO</a>
+          <a>SOBRE <br/> CURSO</a>
         </Link>
       </li>
       <li>
         <Link href="/estruturaCursos">
-          <a>UNIDADES CURRICULARES</a>
+          <a>UNIDADES <br/> CURRICULARES</a>
         </Link>
       </li>
       <li>
         <Link href="/estruturaCursos">
-          <a>CORPO DOCENTE</a>
+          <a>CORPO <br/> DOCENTE</a>
         </Link>
       </li>
       <li>
         <Link href="/estruturaCursos">
-          <a>PROJETO PEDAGÓGICO</a>
+          <a>PROJETO <br/> PEDAGÓGICO</a>
         </Link>
       </li>
       <li>
         <Link href="/estruturaCursos">
-          <a>NOSSA ESTRUTURA</a>
+          <a>NOSSA <br/> ESTRUTURA</a>
         </Link>
       </li>
       <li>
         <Link href="/estruturaCursos">
-          <a>OUTRAS ATIVIDADES</a>
+          <a>OUTRAS <br/> ATIVIDADES</a>
         </Link>
       </li>
       <li>
         <Link href="/estruturaCursos">
-          <a>OUTROS CURSOS</a>
+          <a>OUTROS <br/> CURSOS</a>
         </Link>
       </li>
     </ul>
