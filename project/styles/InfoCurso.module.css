@@ -1,6 +1,5 @@
 .homeAgency {
-  background: #443a8b url(/images/topo-pagina-efeito.jpg) center bottom fixed
-    no-repeat;
+  background: #443a8b url(/images/topo-pagina-efeito.jpg) center bottom fixed no-repeat;
   width: 1900px;
   height: 1000px;
 }
@@ -9,13 +8,44 @@
   text-align: center;
   color: #fff;
   font-size: 100px;
+
 }
-.p {
-    text-align: center;
-	font-family: 'Montserrat', sans-serif;
-	color: #b2b1b8;
-	font-size: 18px;
-	letter-spacing: 0.5px;
-	line-height: 30px;
-	text-rendering: optimizeLegibility;
+.p1 {
+  
+  font-size: 25px;
+  color: #fff;
+  margin-left: 600px;
+  margin-top: 60px;
+  
+}
+
+
+.p2 {
+  font-size: 25px;
+  color: #fff;
+  margin-left: 800px;
+  margin-top: -29px;
+}
+
+
+.p3 {
+  font-size: 25px;
+  color: #fff;
+  margin-left: 900px;
+  margin-top: -30px;
+}
+
+
+.p4 {
+  font-size: 25px;
+  color: #fff;
+  margin-left: 1050px;
+  margin-top: -30px;
+}
+
+.p5{
+  font-size: 25px;
+  color: #fff;
+  margin-left: 1200px;
+  margin-top: -30px;
 }
