@@ -68,9 +68,8 @@ export default function Navbar() {
             </li>
             <li>
               <a href="/" className="menu-btn">
-                BOTAO
-                <br />
-                INTERESSE
+            
+                <button className="botaoInteresse"><i class="fa-brands fa-whatsapp"></i>TENHO <br/>INTERESSE</button>
               </a>
             </li>
           </ul>
