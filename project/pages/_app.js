@@ -1,4 +1,5 @@
 import "../styles/globals.css";
+import "../styles/styles.css";
 
 import MainContainer from "../components/MainContainer";
 

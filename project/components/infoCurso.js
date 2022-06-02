@@ -5,12 +5,13 @@ export default function InfoCurso() {
   return (
     <>
       <div className={styles.homeAgency}>
-        <h3 className={styles.h3}>CURSO</h3>
-        <h3 className={styles.h3}>MEDICINA</h3>
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
         />
+        <h3 className={styles.curso_ajuste}>TI</h3>
+        <h3 className={styles.curso_titulo}>CURSO</h3>
+        <h3 className={styles.curso_nome}>MEDICINA</h3>
         <p className={styles.p1}>
           <i class="fas fa-chalkboard-teacher justify-content-center white-text fa-lg"></i>{" "}
           PRESENCIAL
