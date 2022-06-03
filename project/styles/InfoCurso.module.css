@@ -61,7 +61,8 @@
 
 @media (max-width: 375px) {
   .homeAgency {
-    width: 1500px;
+    width: 1900px;
+    height: 1000px;
   }
 
   .p1 {
@@ -97,7 +98,8 @@
 
 @media (max-width: 414px) {
   .homeAgency {
-    width: 1500px;
+    width: 1900px;
+    height: 1000px;
   }
 
   .p1 {
