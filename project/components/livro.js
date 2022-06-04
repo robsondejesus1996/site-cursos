@@ -24,7 +24,6 @@ export default function Livro() {
           />
         </div>
       </section>
-      <p>Fim componente livro</p>
     </>
   );
 }
