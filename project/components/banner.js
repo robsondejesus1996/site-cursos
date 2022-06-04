@@ -3,10 +3,17 @@ import Image from "next/image";
 export default function Banner() {
   return (
     <>
-    <h1>Componente Banner</h1>
-      <h1>Foto banner curso</h1>
-      <p>Banner linkado para outro lugar</p>
-      <p>--------fim componente-----------</p>
+      <section>
+        <div>
+          <div>
+            <a href="https://www.unidavi.edu.br/medicina" target="_blank">
+              <div>
+                <img src="/images/banner-5motivos-1900x400.jpg" />
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
     </>
   );
 }
