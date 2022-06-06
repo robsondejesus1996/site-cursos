@@ -1,0 +1,81 @@
+.detalhes {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin-left: 480px;
+  border: 10px;
+  width: 250px;
+  margin-top: 100px;
+}
+
+.informacoes {
+  display: inline-block;
+  align-items: center;
+  width: 650px;
+  height: 550px;
+  background-color: #d8d8d8;
+  margin-left: 700px;
+  margin-top: -600px;
+}
+
+.cidades {
+  text-decoration: underline;
+  padding: 10px;
+  font-family: "Montserrat", sans-serif;
+  color: #b2b1b8;
+  font-size: 18px;
+  text-align: justify;
+  margin-left: 50px;
+}
+
+.mais_detalhes {
+  margin-left: 50px;
+  color: black;
+}
+
+.curso {
+  font-size: 50px;
+  display: block;
+  margin-left: 50px;
+}
+
+.h1 {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin-left: 90px;
+  color: black;
+}
+
+.p {
+  padding: 10px;
+  font-family: "Montserrat", sans-serif;
+  color: #b2b1b8;
+  font-size: 18px;
+  text-align: justify;
+  margin-left: 85px;
+}
+
+.h2 {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin-left: 90px;
+  color: black;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.figura_imagem {
+  display: block;
+  margin-left: 10px;
+}
+
+.div_imagem_grade {
+  display: block;
+  margin-left: 1500px;
+  margin-top: -600px;
+}
+
+.fim {
+}

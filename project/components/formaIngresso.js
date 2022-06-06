@@ -64,7 +64,7 @@ export default function FormasIngresso() {
       </section>
 
       <p className={styles.fim}></p>
-      <p>Fim componente trabalhar</p>
+     
     </>
   );
 }
