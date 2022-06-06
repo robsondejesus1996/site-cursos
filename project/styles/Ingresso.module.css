@@ -1,0 +1,75 @@
+.secao {
+  background-color: #e6e6e6;
+  height: 100vh;
+}
+.pergunta {
+  margin-top: 100px;
+  display: block;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  font-weight: 100;
+  color: black;
+  margin-left: -800px;
+  padding: 100px;
+}
+
+.ingresso {
+  font-family: "Playfair Display", serif;
+  margin-top: -50px;
+  display: block;
+  text-align: center;
+  font-size: 105px;
+  font-weight: 1000;
+  margin-top: -100px;
+  margin-left: -750px;
+}
+
+.pipe {
+  font-family: "Raleway Especial";
+  font-weight: 10;
+  font-size: 100px;
+  color: #585858;
+  margin-left: -150px;
+}
+
+.div_imagem_ingresso {
+  display: block;
+  align-items: center;
+  margin-left: 1200px;
+  margin-top: -350px;
+}
+
+.figura_imagem {
+  display: block;
+  margin-top: -850px;
+  margin-left: 100px;
+}
+
+.descricao {
+  width: 700px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+  margin-left: 400px;
+  text-align: justify;
+  margin-top: 50px;
+  color: #b2b1b8;
+}
+
+.div_formas {
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 400px;
+}
+
+.tipo_forma {
+  color: black;
+  font-size: 50px;
+  text-decoration: none;
+}
+
+.fim {
+  margin-top: 400px;
+}
