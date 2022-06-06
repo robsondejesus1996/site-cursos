@@ -50,6 +50,7 @@ export default function DetalhesCurso() {
       <img src="/images/grade.png"/>
       </div>
 
+      
     </>
   );
 }
