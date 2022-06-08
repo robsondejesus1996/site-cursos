@@ -1,5 +1,5 @@
 .footer {
-  background-color: #0A3981;
+  background-color: #0a3981;
   color: #fff;
   height: 300px;
   display: flex;
@@ -12,5 +12,61 @@
   display: -webkit-flex;
   justify-content: center;
   align-items: center;
+  margin-left: -100px;
 }
 
+.div_visite {
+  margin-top: 90px;
+  margin-left: -400px;
+  color: #fff;
+  width: 200px;
+}
+
+.div_contate {
+  margin-top: 90px;
+  color: #fff;
+  margin-left: -80px;
+}
+
+.visite {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin-left: 500px;
+  margin-top: -90px;
+  font-size: 50px;
+}
+
+.des_universidade {
+  width: 300px;
+  margin-left: 500px;
+}
+
+.des_endereco {
+  margin: 10px;
+  width: 300px;
+  margin-left: 500px;
+}
+
+.contate {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin-left: 800px;
+  margin-top: -90px;
+  font-size: 50px;
+}
+
+.email {
+  margin: 10px;
+  margin-left: 800px;
+}
+
+.telefone {
+  margin: 10px;
+  margin-left: 800px;
+}
+
+.redes {
+  margin-left: 800px;
+}
