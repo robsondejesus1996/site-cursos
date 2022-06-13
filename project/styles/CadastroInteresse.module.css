@@ -7,14 +7,14 @@
   align-items: center;
 }
 .pergunta {
-  margin-top: -300px;
+  margin-top: -450px;
   display: block;
   text-align: center;
   font-family: "Playfair Display", serif;
   font-size: 30px;
   font-weight: 100;
   color: #fff;
-  margin-left: 620px;
+  margin-left: 100px;
 }
 
 .contato {
@@ -25,7 +25,8 @@
   font-size: 105px;
   font-weight: 1000;
   margin-top: -100px;
-  margin-left: 550px;
+  margin-left: -10px;
+  
 }
 
 .pipe {
@@ -36,13 +37,88 @@
   margin-left: -110px;
 }
 
-.figura_imagem{
-    margin-top: -900px;
-    margin-left: 200px;
+.figura_imagem {
+  margin-top: -900px;
+  margin-left: 200px;
 }
 
+.figura_grade {
+  margin-left: -350px;
+}
 
-.figura_grade{
-    margin-top: 400px;
-    margin-left: -350px;
+.div_inputs {
+  display: flex;
+  margin-left: -1500px;
+}
+
+/*label*/
+.nomeLabel {
+  display: flex;
+  margin-top: -10px;
+  margin-left: -100px;
+}
+
+.cidadeLabel {
+  display: flex;
+  margin-top: 30px;
+  margin-left: -100px;
+}
+
+.foneLabel {
+  display: flex;
+  margin-top: 30px;
+  margin-left: -100px;
+}
+
+.mensagemLabel {
+  display: flex;
+  margin-top: 30px;
+  margin-left: -100px;
+}
+
+/*input*/
+
+.inputNome {
+  display: flex;
+  margin-top: 10px;
+  margin-left: -100px;
+  width: 1000px;
+  height: 50px;
+}
+
+.inputCidade {
+  display: flex;
+  margin-top: 10px;
+  margin-left: -100px;
+  width: 1000px;
+  height: 50px;
+}
+
+.inputFone {
+  display: flex;
+  margin-top: 10px;
+  margin-left: -100px;
+  width: 1000px;
+  height: 50px;
+}
+
+.inputMensagem {
+  display: flex;
+  margin-top: 10px;
+  margin-left: -100px;
+  width: 1000px;
+  height: 100px;
+}
+
+.buttonEnviar {
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  display: flex;
+  border-radius: 30px;
+  width: 200px;
+  height: 50px;
+  margin-left: -100px;
+  margin-top: 50px;
+  border: solid 1px #fff;
 }

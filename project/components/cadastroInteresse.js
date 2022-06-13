@@ -1,4 +1,5 @@
 import Image from "next/image";
+
 import styles from "../styles/CadastroInteresse.module.css";
 
 export default function CadastroInteresse() {
@@ -21,7 +22,59 @@ export default function CadastroInteresse() {
         <img className={styles.figura_grade} src="/images/grade.png" />
 
         <div className={styles.div_inputs}>
-         
+          <form className="flex flex-col">
+            <label htmlFor="name" className={styles.nomeLabel}>
+              NOME
+            </label>
+            <input
+              className={styles.inputNome}
+              id="name"
+              name="name"
+              type="text"
+              autocomplete="name"
+              required
+            />
+
+            <label htmlFor="cidade" className={styles.cidadeLabel}>
+              CIDADE
+            </label>
+            <input
+              className={styles.inputCidade}
+              id="cidade"
+              name="cidade"
+              type="text"
+              autocomplete="cidade"
+              required
+            />
+
+            <label htmlFor="cidade" className={styles.foneLabel}>
+              FONE
+            </label>
+            <input
+              className={styles.inputFone}
+              id="fone"
+              name="fone"
+              type="text"
+              autocomplete="fone"
+              required
+            />
+
+            <label htmlFor="cidade" className={styles.mensagemLabel}>
+              MENSAGEM
+            </label>
+            <input
+              className={styles.inputMensagem}
+              id="mensagem"
+              name="mensagem"
+              type="text"
+              autocomplete="mensagem"
+              required
+            />
+
+            <button type="submit" className={styles.buttonEnviar}>
+              ENVIAR
+            </button>
+          </form>
         </div>
       </section>
     </>
