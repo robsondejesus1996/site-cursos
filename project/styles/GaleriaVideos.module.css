@@ -1,0 +1,80 @@
+.pergunta {
+  margin-top: 100px;
+  display: block;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  font-weight: 100;
+  color: black;
+  margin-left: 50px;
+}
+
+.videos {
+  font-family: "Playfair Display", serif;
+  margin-top: -50px;
+  display: block;
+  text-align: center;
+  font-size: 105px;
+  font-weight: 1000;
+  margin-top: -100px;
+}
+
+.pipe {
+  font-family: "Raleway Especial";
+  font-weight: 10;
+  font-size: 100px;
+  color: #585858;
+  margin-left: -150px;
+}
+
+.conteudo {
+  padding: 10px;
+  width: 1500px;
+  height: 500px;
+  margin-left: 200px;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2f2f2;
+}
+
+.hr {
+  background-color: #a4a4a4;
+}
+
+.card {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.card_titulo {
+  width: 400px;
+}
+
+.frame {
+  display: block;
+  width: 400px;
+  height: 200px;
+}
+
+.p3 {
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.button_visualizar {
+  background-color: #0d47a1;
+  width: 400px;
+  height: 50px;
+  font-size: 30px;
+  color: #fff;
+  border: solid 1px;
+}
+
+.fim {
+  height: 80px;
+}
