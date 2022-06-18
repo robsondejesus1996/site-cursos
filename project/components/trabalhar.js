@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "../styles/Trabalhar.module.css";
+
 export default function Trabalhar() {
   return (
     <>
