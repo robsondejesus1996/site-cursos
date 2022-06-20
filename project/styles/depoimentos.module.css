@@ -1,0 +1,84 @@
+.pergunta {
+    margin-top: 100px;
+    display: block;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+    font-weight: 100;
+    color: black;
+    margin-left: 50px;
+  }
+  
+  .depoimento {
+    font-family: "Playfair Display", serif;
+    margin-top: -50px;
+    display: block;
+    text-align: center;
+    font-size: 105px;
+    font-weight: 1000;
+    margin-top: -100px;
+  }
+  
+  .pipe {
+    font-family: "Raleway Especial";
+    font-weight: 10;
+    font-size: 100px;
+    color: #585858;
+    margin-left: -280px;
+  }
+
+  .figura_imagem{
+      display: block;
+      margin-left: 1500px;
+      margin-top: -300px;
+  }
+
+  .figura_academica{
+      display: block;
+      margin-left: 650px;
+      margin-top: -250px;
+  }
+
+.conteudo{
+    background-color: #D8D8D8;
+    align-items: center;
+    justify-content: center;
+    width: 800px;
+    height: 400px;
+    margin-left: 550px;
+    margin-top: -550px;
+}
+
+
+.info_academico{
+    background-color: transparent;
+    width: 300px;
+    height: 100px;
+    margin-left: 1150px;
+    margin-top: -120px;
+}
+
+.p{
+    font-size: 20px;
+    color: #585858;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    width: 400px;
+    padding: 30px;
+    margin-left: 100px;
+}
+
+.h1{
+    color: red;
+    margin-left: 600px;
+}
+
+.a{
+    padding: 10px;
+    margin-left: 200px;
+}
+  .fim {
+    margin-top: 400px;
+  }
+  

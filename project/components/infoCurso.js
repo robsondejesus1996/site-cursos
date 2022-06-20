@@ -6,10 +6,6 @@ import styles from "../styles/InfoCurso.module.css";
 export default function InfoCurso() {
   return (
     <>
-      
-
-
-
       <Parallax className={styles.image} bgImage="/images/topo-pagina-efeito.jpg" strength={800}>
         <div>
           <h3 className={styles.curso_titulo}>CURSO</h3>

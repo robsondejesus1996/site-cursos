@@ -34,7 +34,6 @@ export default function MainContainer({ children }) {
       <DetalhesCurso />
       <FormasIngresso />
       <Mensalidade />
-      <Depoimentos />
       <Noticias />
       <GaleriaVideos />
       <CadastroInteresse />

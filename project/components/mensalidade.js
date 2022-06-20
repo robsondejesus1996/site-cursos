@@ -43,7 +43,7 @@ export default function Mensalidade() {
       </section>
 
       <p className={styles.fim}></p>
-      <p>fim componente mensalidade</p>
+      
     </>
   );
 }
