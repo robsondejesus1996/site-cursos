@@ -24,7 +24,7 @@ export default function CadastroInteresse() {
         <div className={styles.div_inputs}>
           <form className="flex flex-col">
             <label htmlFor="name" className={styles.nomeLabel}>
-              NOME
+              
             </label>
             <input
               className={styles.inputNome}
@@ -33,10 +33,11 @@ export default function CadastroInteresse() {
               type="text"
               autocomplete="name"
               required
+              placeholder="NOME"
             />
 
             <label htmlFor="cidade" className={styles.cidadeLabel}>
-              CIDADE
+              
             </label>
             <input
               className={styles.inputCidade}
@@ -45,10 +46,11 @@ export default function CadastroInteresse() {
               type="text"
               autocomplete="cidade"
               required
+              placeholder="CIDADE"
             />
 
             <label htmlFor="cidade" className={styles.foneLabel}>
-              FONE
+              
             </label>
             <input
               className={styles.inputFone}
@@ -57,10 +59,11 @@ export default function CadastroInteresse() {
               type="text"
               autocomplete="fone"
               required
+              placeholder="FONE"
             />
 
             <label htmlFor="cidade" className={styles.mensagemLabel}>
-              MENSAGEM
+              
             </label>
             <input
               className={styles.inputMensagem}
@@ -69,6 +72,7 @@ export default function CadastroInteresse() {
               type="text"
               autocomplete="mensagem"
               required
+              placeholder="MENSAGEM"
             />
 
             <button type="submit" className={styles.buttonEnviar}>

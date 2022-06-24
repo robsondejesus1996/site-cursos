@@ -26,7 +26,6 @@
   font-weight: 1000;
   margin-top: -100px;
   margin-left: -10px;
-  
 }
 
 .pipe {
@@ -49,7 +48,7 @@
 
 .div_inputs {
   display: flex;
-  margin-left: -1500px;
+  margin-left: -1350px;
 }
 
 /*label*/
@@ -85,6 +84,12 @@
   margin-left: -100px;
   width: 1000px;
   height: 50px;
+  background-color: transparent;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  background-color: transparent;
 }
 
 .inputCidade {
@@ -93,6 +98,12 @@
   margin-left: -100px;
   width: 1000px;
   height: 50px;
+  background-color: transparent;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  background-color: transparent;
 }
 
 .inputFone {
@@ -101,6 +112,12 @@
   margin-left: -100px;
   width: 1000px;
   height: 50px;
+  background-color: transparent;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  background-color: transparent;
 }
 
 .inputMensagem {
@@ -109,6 +126,12 @@
   margin-left: -100px;
   width: 1000px;
   height: 100px;
+  background-color: transparent;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: groove;
+  background-color: transparent;
 }
 
 .buttonEnviar {
