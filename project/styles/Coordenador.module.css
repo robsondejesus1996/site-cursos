@@ -91,6 +91,7 @@
 }
 
 .bola_cortada {
+  opacity: 0.2;
   margin-top: -200px;
   margin-left: -350px;
 }

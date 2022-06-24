@@ -40,6 +40,7 @@
 }
 
 .figura_grade {
+  opacity: 0.2;
   display: block;
   margin-top: -600px;
   margin-left: 190px;
