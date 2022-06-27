@@ -1,3 +1,44 @@
+.info{
+  display: block;
+  margin-left: 400px;
+  margin-top: -450px;
+  padding: 100px;
+  width: 400px;
+}
+
+
+.pergunta{
+  margin-top: 100px;
+  display: block;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  font-weight: 100;
+  color: black;
+  margin-left: -45px;
+  width: 400px;
+}
+
+.pipe {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 10;
+  font-size: 100px;
+  color: #585858;
+  margin-left: -100px;
+  margin-top: -100px;
+}
+
+.curso{
+  font-family: "Times New Roman", Times, serif;
+  margin-top: -50px;
+  display: block;
+  text-align: center;
+  font-size: 105px;
+  font-weight: 1000;
+  margin-top: -100px;
+  margin-left: -150px;
+}
+
 .detalhes {
   display: block;
   align-items: center;
@@ -5,17 +46,17 @@
   margin-left: 480px;
   border: 10px;
   width: 250px;
-  margin-top: 100px;
+  margin-top: 350px;
 }
 
 .informacoes {
   display: inline-block;
   align-items: center;
   width: 650px;
-  height: 550px;
+  height: 500px;
   background-color: #F2F2F2;
   margin-left: 700px;
-  margin-top: -600px;
+  margin-top: -300px;
 }
 
 .cidades {
@@ -25,6 +66,7 @@
   font-size: 20px;
   text-align: justify;
   margin-left: 40px;
+  
 }
 
 .cidadeRioDoSul{
@@ -37,23 +79,17 @@
   margin-left: 40px;
 }
 
-.mais_detalhes {
-  margin-left: 50px;
-  color: black;
-}
 
-.curso {
-  font-size: 50px;
-  display: block;
-  margin-left: 50px;
-}
+
 
 .h1 {
   display: block;
   align-items: center;
   justify-content: center;
+  margin-top: 30px;
   margin-left: 90px;
   color: black;
+  
 }
 
 .p {
@@ -83,7 +119,9 @@
 .div_imagem_grade {
   display: block;
   margin-left: 1350px;
-  margin-top: -600px;
+  margin-top: -590px;
+  width: 200px;
+  height: 600px;
 }
 
 .fim {

@@ -5,8 +5,20 @@ export default function DetalhesCurso() {
   return (
     <>
       <div className={styles.detalhes}>
-        <p className={styles.mais_detalhes}>+ detalher sobre este</p>
-        <h1 className={styles.curso}>Curso</h1>
+        <div className={styles.info}>
+        <h6
+          className={styles.pergunta}
+          data-wow-delay="0.4s"
+          data-aos="fade-left"
+        >
+          DETALHES SOBRE ESSE
+        </h6>
+        <span className={styles.curso} data-aos="fade-up">
+          {" "}
+          <p className={styles.pipe}>|</p>CURSO
+        </span>
+        </div>
+
         <p>
           <a className={styles.cidadeRioDoSul} href="">
             Rio do Sul
@@ -43,14 +55,12 @@ export default function DetalhesCurso() {
         <p className={styles.p}>Decreto n° 71.604 - 22/12/1972</p>
 
         <h1 className={styles.h1}>N° de Vagas</h1>
-        <h2 className={styles.h2}>150</h2> 
+        <h2 className={styles.h2}>150</h2>
       </div>
 
       <div className={styles.div_imagem_grade}>
-      <img src="/images/grade.png"/>
+        <img src="/images/grade.png" />
       </div>
-
-      
     </>
   );
 }

@@ -24,7 +24,7 @@
   font-weight: 10;
   font-size: 100px;
   color: #585858;
-  margin-left: -160px;
+  margin-left: -180px;
 }
 
 .div_informacoes_coordenador {
@@ -71,8 +71,8 @@
 
 .figura_coordenador {
   width: 400px;
-  margin-left: -50px;
-  margin-top: -40px;
+  margin-left: -20px;
+  margin-top: -10px;
 }
 
 .button {
