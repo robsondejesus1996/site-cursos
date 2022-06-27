@@ -1,16 +1,22 @@
 import Image from "next/image";
 import styles from "../styles/GaleriaVideos.module.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 export default function GaleriaVideos() {
+  useEffect(() =>{
+    Aos.init({ duration: 1500 });
+  }, [])
   return (
     <>
       <section>
         <div className="container">
           <div className="heading-block">
-            <h6 className={styles.pergunta} data-wow-delay="0.4s">
+            <h6 className={styles.pergunta} data-wow-delay="0.4s" data-aos="fade-left">
               GALERIA DE
             </h6>
-            <span className={styles.videos}>
+            <span className={styles.videos} data-aos="fade-up">
               {" "}
               <p className={styles.pipe}>|</p>VIDEOS
             </span>

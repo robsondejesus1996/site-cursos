@@ -1,16 +1,23 @@
 import Image from "next/image";
 import styles from "../styles/depoimentos.module.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 export default function Depoimentos() {
+  useEffect(() =>{
+    Aos.init({ duration: 1500 });
+  }, [])
+
   return (
     <>
       <section>
         <div className="container">
           <div className="heading-block">
-            <h6 className={styles.pergunta} data-wow-delay="0.4s">
+            <h6 className={styles.pergunta} data-wow-delay="0.4s" data-aos="fade-left">
               O QUE DIZEM NOSSOS
             </h6>
-            <span className={styles.depoimento}>
+            <span className={styles.depoimento} data-aos="fade-up">
               {" "}
               <p className={styles.pipe}>|</p>ACADÊMICOS
             </span>
@@ -19,7 +26,7 @@ export default function Depoimentos() {
         <img className={styles.figura_imagem} src="/images/formas7-PG.png" />
         <img className={styles.figura_grade} src="/images/grade.png" />
 
-        <div className={styles.conteudo}>
+        <div className={styles.conteudo} >
           <p className={styles.p}>
             Escolhi o cruso de administração por influência da formação da minha
             irmã, que também estudou administração na Unidavi.
@@ -32,7 +39,7 @@ export default function Depoimentos() {
 
           <img
             className={styles.figura_academica}
-            src="/images/academica.png"
+            src="/images/academica.png" data-aos="flip-right"
           />
         </div>
 

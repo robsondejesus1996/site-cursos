@@ -1,21 +1,28 @@
 import Image from "next/image";
 import styles from "../styles/Trabalhar.module.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 export default function Trabalhar() {
+  useEffect(() =>{
+    Aos.init({ duration: 1500 });
+  }, [])
+
   return (
     <>
       <section>
         <div className="container">
           <div className="heading-block">
-            <h6 className={styles.pergunta} data-wow-delay="0.4s">
+            <h6 className={styles.pergunta} data-wow-delay="0.4s" data-aos="fade-left">
               ONDE
             </h6>
-            <span className={styles.trabalhar}>
+            <span className={styles.trabalhar}data-aos="fade-up">
               {" "}
               <p className={styles.pipe}>|</p>TRABALHAR
             </span>
 
-            <div className={styles.div_imagem_trabalhar}>
+            <div className={styles.div_imagem_trabalhar} data-aos="fade-left">
               <img
                 className="hello-img animate fadeInLeft"
                 data-wow-delay="0.4s"

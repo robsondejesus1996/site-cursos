@@ -1,14 +1,20 @@
 import Image from "next/image";
 import styles from "../styles/Ingresso.module.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 export default function FormasIngresso() {
+  useEffect(() =>{
+    Aos.init({ duration: 1500 });
+  }, [])
   return (
     <>
       <section className={styles.secao}>
-        <span className={styles.pergunta}>FORMAS DE</span>
-        <span className={styles.ingresso}>
+        <span className={styles.pergunta} data-aos="fade-left">FORMAS DE</span>
+        <span className={styles.ingresso}data-aos="fade-up">
           {" "}
-          <p className={styles.pipe}>|</p>INGRESSO
+          <p className={styles.pipe} >|</p>INGRESSO
         </span>
 
         <div className={styles.descricao}>

@@ -1,7 +1,13 @@
 import Image from "next/image";
 import styles from "../styles/Mensalidade.module.css";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 export default function Mensalidade() {
+  useEffect(() =>{
+    Aos.init({ duration: 1500 });
+  }, [])
   return (
     <>
       <section className={styles.secao}>
@@ -9,12 +15,12 @@ export default function Mensalidade() {
           <div className="heading-block">
             
 
-          <span className={styles.pergunta}>
+          <span className={styles.pergunta}data-aos="fade-left">
               {" "}
               |VALOR
               
             </span>
-            <span className={styles.mensalidade}>
+            <span className={styles.mensalidade} data-aos="fade-up">
               {" "}
               MENSALIDADE
               

@@ -1,17 +1,23 @@
 import Image from "next/image";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 import styles from "../styles/CadastroInteresse.module.css";
 
 export default function CadastroInteresse() {
+  useEffect(() =>{
+    Aos.init({ duration: 1500 });
+  }, [])
   return (
     <>
       <section className={styles.body}>
         <div className="container">
           <div className="heading-block">
-            <h6 className={styles.pergunta} data-wow-delay="0.4s">
+            <h6 className={styles.pergunta} data-wow-delay="0.4s" data-aos="fade-left">
               ENTRE EM
             </h6>
-            <span className={styles.contato}>
+            <span className={styles.contato} data-aos="fade-up">
               {" "}
               <p className={styles.pipe}>|</p>CONTATO
             </span>
