@@ -29,11 +29,12 @@ export default function Trabalhar() {
             </div>
 
             <div className={styles.descricao}>
-              <h4>
-                A Medicina hoje, no mundo, no Brasil, em Santa Catarina e também
-                no Alto Vale, ainda possui um mercado vasto, com alta
-                remuneração inicial ao médico recém-formado.
-              </h4>
+              <p>
+                Também existe a possibilidade de ampliação do conhecimento
+                médico com os inúmeros programas de residência médica no País e
+                no exterior, possibilitando a formação de especialistas nas mais
+                diversas áreas da profissão.
+              </p>
             </div>
 
             <div className={styles.descricao_detalhada}>

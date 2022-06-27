@@ -5,10 +5,10 @@ export default function FormasIngresso() {
   return (
     <>
       <section className={styles.secao}>
-        <span className={styles.pergunta}> |FORMAS DE</span>
+        <span className={styles.pergunta}>FORMAS DE</span>
         <span className={styles.ingresso}>
           {" "}
-          <p className={styles.pipe}></p>Ingresso
+          <p className={styles.pipe}>|</p>INGRESSO
         </span>
 
         <div className={styles.descricao}>

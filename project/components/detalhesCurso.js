@@ -8,7 +8,7 @@ export default function DetalhesCurso() {
         <p className={styles.mais_detalhes}>+ detalher sobre este</p>
         <h1 className={styles.curso}>Curso</h1>
         <p>
-          <a className={styles.cidades} href="">
+          <a className={styles.cidadeRioDoSul} href="">
             Rio do Sul
           </a>
         </p>

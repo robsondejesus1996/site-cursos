@@ -29,7 +29,7 @@ export default function Coordenador() {
             em Cirurgia Geral, Gastrenterologia e Endoscopia Digestiva.
           </p>
 
-          <p className={styles.separacao}>__________</p>
+          <p className={styles.separacao}>________________________________</p>
 
           <p>
             {" "}

@@ -28,31 +28,32 @@
 }
 
 .div_informacoes_coordenador {
-  width: 1000px;
+  width: 1100px;
   height: 500px;
   margin-left: 400px;
-  background-color: #d8d8d8;
+  background-color: #F2F2F2;
 }
 
 .p {
-  width: 500px;
+  width: 650px;
   font-family: "Montserrat", sans-serif;
-  color: #b2b1b8;
-  font-size: 18px;
+  font-size: 30px;
   display: flex;
   align-items: center;
-  margin-left: 350px;
-  text-align: justify;
-  margin-top: -350px;
+  margin-left: 400px;
+  margin-top: -500px;
+  color: #b2b1b8;
+  font-weight: 100;
+  line-height: 52px;
 }
 
 .email_coordenacao {
   padding: 10px;
   font-family: "Montserrat", sans-serif;
   color: black;
-  font-size: 25px;
+  font-size: 20px;
   text-align: justify;
-  margin-left: 340px;
+  margin-left: 400px;
 }
 
 .contato {
@@ -61,11 +62,11 @@
   color: black;
   font-size: 25px;
   text-align: justify;
-  margin-left: 340px;
+  margin-left: 400px;
 }
 
 .separacao {
-  margin-left: 350px;
+  margin-left: 410px;
 }
 
 .figura_coordenador {

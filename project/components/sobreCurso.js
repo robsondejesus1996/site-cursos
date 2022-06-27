@@ -29,11 +29,11 @@ export default function SobreCurso() {
             </div>
 
             <div className={styles.descricao}>
-              <h4>
+              <p>
                 O curso de Medicina é focado no acadêmico que tem participação
                 ativa na busca do conhecimento, com uma estrutura completa a seu
                 favor.
-              </h4>
+              </p>
             </div>
 
             <div className={styles.descricao_detalhada}>

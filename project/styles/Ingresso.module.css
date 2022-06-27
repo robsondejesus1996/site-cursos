@@ -1,5 +1,5 @@
 .secao {
-  background-color: #e6e6e6;
+  background-color: #F2F2F2;
   height: 100vh;
 }
 .pergunta {
@@ -10,7 +10,7 @@
   font-size: 30px;
   font-weight: 100;
   color: black;
-  margin-left: -800px;
+  margin-left: -750px;
   padding: 100px;
 }
 
@@ -21,8 +21,8 @@
   text-align: center;
   font-size: 105px;
   font-weight: 1000;
-  margin-top: -100px;
-  margin-left: -750px;
+  margin-top: -200px;
+  margin-left: -570px;
 }
 
 .pipe {
@@ -30,7 +30,7 @@
   font-weight: 10;
   font-size: 100px;
   color: #585858;
-  margin-left: -150px;
+  margin-left: -370px;
 }
 
 .div_imagem_ingresso {
@@ -49,13 +49,14 @@
 .descricao {
   width: 700px;
   font-family: "Montserrat", sans-serif;
-  font-size: 30px;
+  font-size: 25px;
   display: flex;
   align-items: center;
   margin-left: 400px;
-  text-align: justify;
   margin-top: 50px;
   color: #b2b1b8;
+  font-weight: 100;
+  line-height: 52px;
 }
 
 .div_formas {
@@ -68,5 +69,6 @@
   color: black;
   font-size: 50px;
   text-decoration: none;
+  font-weight: 600;
 }
 

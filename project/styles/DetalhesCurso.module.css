@@ -13,19 +13,28 @@
   align-items: center;
   width: 650px;
   height: 550px;
-  background-color: #d8d8d8;
+  background-color: #F2F2F2;
   margin-left: 700px;
   margin-top: -600px;
 }
 
 .cidades {
-  text-decoration: underline;
   padding: 10px;
   font-family: "Montserrat", sans-serif;
   color: #b2b1b8;
-  font-size: 18px;
+  font-size: 20px;
   text-align: justify;
-  margin-left: 50px;
+  margin-left: 40px;
+}
+
+.cidadeRioDoSul{
+  text-decoration: underline;
+  padding: 10px;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  font-size: 20px;
+  text-align: justify;
+  margin-left: 40px;
 }
 
 .mais_detalhes {
