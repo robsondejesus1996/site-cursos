@@ -17,7 +17,7 @@ export default function Mensalidade() {
 
           <span className={styles.pergunta}data-aos="fade-left">
               {" "}
-              |VALOR
+              |   VALOR
               
             </span>
             <span className={styles.mensalidade} data-aos="fade-up">
