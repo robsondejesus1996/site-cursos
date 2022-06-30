@@ -5,23 +5,30 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 
 export default function Coordenador() {
-  useEffect(() =>{
+  useEffect(() => {
     Aos.init({ duration: 1500 });
-  }, [])
+  }, []);
   return (
     <>
       <section>
         <div className={styles.div_apresentacao}>
-          <h6 className={styles.apresentacao_coordenador} data-wow-delay="0.4s" data-aos="fade-left">
+          <h6
+            className={styles.apresentacao_coordenador}
+            data-wow-delay="0.4s"
+            data-aos="fade-left"
+          >
             Olá! Sou o Coordenador
           </h6>
-          <span className={styles.apresentacao}data-aos="fade-up">
+          <span className={styles.apresentacao} data-aos="fade-up">
             {" "}
             <p className={styles.pipe}>|</p>Augusto Fey
           </span>
         </div>
 
-        <div className={styles.div_informacoes_coordenador} data-aos="fade-left">
+        <div
+          className={styles.div_informacoes_coordenador}
+          data-aos="fade-left"
+        >
           <img className={styles.bola_cortada} src="/images/bola-cortada.png" />
           <img
             className={styles.figura_coordenador}

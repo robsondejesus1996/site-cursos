@@ -35,8 +35,8 @@
 
   .figura_academica{
       display: block;
-      margin-left: 650px;
-      margin-top: -250px;
+      margin-left: 750px;
+      margin-top: -200px;
   }
 
 .conteudo{
@@ -54,8 +54,12 @@
     background-color: transparent;
     width: 300px;
     height: 100px;
-    margin-left: 1150px;
-    margin-top: -200px;
+    margin-left: 1250px;
+    margin-top: -150px;
+}
+
+.flexas{
+  margin-left: 30px;
 }
 
 .p{
@@ -67,15 +71,17 @@
     text-align: justify;
     width: 500px;
     padding: 30px;
-    margin-left: 50px;
-    
+    margin-left: 120px;  
 }
 
 
 .a{
     padding: 10px;
-    margin-left: 200px;
+    margin-left: 100px;
 }
+
+
+
   .fim {
     margin-top: 400px;
   }

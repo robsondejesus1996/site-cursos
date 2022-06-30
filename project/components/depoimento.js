@@ -46,14 +46,16 @@ export default function Depoimentos() {
         <div className={styles.info_academico}>
           <h1>Franciele Reinert da Rosa</h1>
           <h2>Acadêmica 5° fase ADM</h2>
+          <div className={styles.flexas}>
           <a className={styles.a}>
             {" "}
-            <i class="fa-solid fa-arrow-left"></i>
+            <i class="fa-solid fa-arrow-left fa-3x"></i>
           </a>
           <a>
             {" "}
-            <i class="fa-solid fa-arrow-right"></i>
+            <i class="fa-solid fa-arrow-right fa-3x"></i>
           </a>
+          </div>
         </div>
       </section>
 

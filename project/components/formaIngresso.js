@@ -29,31 +29,31 @@ export default function FormasIngresso() {
             <a href="" className={styles.tipo_forma}>
               Vestibular Acafe
             </a>
-            <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+            <i class="fa fa-long-arrow-right fa-2x" aria-hidden="true"></i>
           </p>
           <p>
             <a href="" className={styles.tipo_forma}>
               Enem
             </a>
-            <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+            <i class="fa fa-long-arrow-right fa-2x" aria-hidden="true"></i>
           </p>
           <p>
             <a href="" className={styles.tipo_forma}>
               Seletivo Unidavi
             </a>
-            <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+            <i class="fa fa-long-arrow-right fa-2x" aria-hidden="true"></i>
           </p>
           <p>
             <a href="" className={styles.tipo_forma}>
               Reingresso
             </a>
-            <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+            <i class="fa fa-long-arrow-right fa-2x" aria-hidden="true"></i>
           </p>
           <p>
             <a href="" className={styles.tipo_forma}>
               Transferência
             </a>
-            <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+            <i class="fa fa-long-arrow-right fa-2x" aria-hidden="true"></i>
           </p>
         </div>
         <div className={styles.div_imagem_ingresso}>
