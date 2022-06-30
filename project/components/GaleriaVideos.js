@@ -5,15 +5,19 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 
 export default function GaleriaVideos() {
-  useEffect(() =>{
+  useEffect(() => {
     Aos.init({ duration: 1500 });
-  }, [])
+  }, []);
   return (
     <>
       <section>
         <div className="container">
           <div className="heading-block">
-            <h6 className={styles.pergunta} data-wow-delay="0.4s" data-aos="fade-left">
+            <h6
+              className={styles.pergunta}
+              data-wow-delay="0.4s"
+              data-aos="fade-left"
+            >
               GALERIA DE
             </h6>
             <span className={styles.videos} data-aos="fade-up">
@@ -25,6 +29,9 @@ export default function GaleriaVideos() {
 
         <div>
           <div className={styles.conteudo}>
+            <a href="" className={styles.galeriaVeja}>
+              <i class="fas fa-angle-double-right"></i> Veja Mais
+            </a>
             <hr className={styles.hr}></hr>
             <div className={styles.card}>
               <div class="embed-responsive embed-responsive-16by9">
@@ -35,6 +42,7 @@ export default function GaleriaVideos() {
                 ></iframe>
               </div>
               <div className={styles.card_titulo}>
+                {/*
                 <h5 className={styles.p3}>
                   <strong>Conheça o curso de Medicina da Unidavi</strong>
                 </h5>
@@ -43,6 +51,7 @@ export default function GaleriaVideos() {
                   {" "}
                   <i class="far fa-eye white-text"></i>Visualizar
                 </button>
+  */}
               </div>
             </div>
           </div>

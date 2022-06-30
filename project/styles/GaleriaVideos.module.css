@@ -34,11 +34,19 @@
   margin-left: 200px;
   align-items: center;
   justify-content: center;
-  background-color: #f2f2f2;
+  background-color: transparent;
 }
 
 .hr {
   background-color: #a4a4a4;
+}
+
+.galeriaVeja {
+  font-family: "Montserrat", sans-serif;
+  color: #4000ff;
+  display: block;
+  margin-left: 1390px;
+  width: 200px;
 }
 
 .card {
@@ -56,7 +64,7 @@
 .frame {
   display: block;
   width: 400px;
-  height: 200px;
+  height: 230px;
 }
 
 .p3 {

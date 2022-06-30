@@ -5,19 +5,23 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 
 export default function Trabalhar() {
-  useEffect(() =>{
+  useEffect(() => {
     Aos.init({ duration: 1500 });
-  }, [])
+  }, []);
 
   return (
     <>
       <section>
         <div className="container">
           <div className="heading-block">
-            <h6 className={styles.pergunta} data-wow-delay="0.4s" data-aos="fade-left">
+            <h6
+              className={styles.pergunta}
+              data-wow-delay="0.4s"
+              data-aos="fade-left"
+            >
               ONDE
             </h6>
-            <span className={styles.trabalhar}data-aos="fade-up">
+            <span className={styles.trabalhar} data-aos="fade-up">
               {" "}
               <p className={styles.pipe}>|</p>TRABALHAR
             </span>
