@@ -23,18 +23,26 @@ body {
 }
 
 .navbar {
-  position: fixed;
+  position: center;
   width: 100%;
   z-index: 999;
-  padding: 20px 0;
+  padding: 10px 0;
   background-color: black;
   border-bottom: solid black 1px;
+}
+
+.navbar {
+  
 }
 
 .navbar .max-width {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.navbar .menu li a:hover{
+  color: #fe6192;
 }
 
 .navbar .menu li {
