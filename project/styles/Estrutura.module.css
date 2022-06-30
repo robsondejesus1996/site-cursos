@@ -1,143 +1,161 @@
 .pergunta {
-    margin-top: 100px;
-    display: block;
-    text-align: center;
-    font-family: "Playfair Display", serif;
-    font-size: 30px;
-    font-weight: 100;
-    color: black;
-    margin-left: 50px;
-  }
-  
-  .estrutura {
-    font-family: "Playfair Display", serif;
-    margin-top: -50px;
-    display: block;
-    text-align: center;
-    font-size: 105px;
-    font-weight: 1000;
-    margin-top: -100px;
-  }
-  
-  .pipe {
-    font-family: "Raleway Especial";
-    font-weight: 10;
-    font-size: 100px;
-    color: #585858;
-    margin-left: -80px;
-  }
-
-  .nav{
-      display: flex;
-  }
-
-
-  .li:hover{
-    text-decoration: underline;
-  }
-
-  .menu{
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      margin-left: 400px;
-      padding: 10px;
-  }
-
-  .li{
-      list-style-type: none;
-      margin: 10px;
-     
-  }
-
-  .a{
-      color: #585858;
-      font-size: 20px;
-  }
-
-
-  .figura_imagem{
-      display: block;
-      margin-left: 1500px;
-      margin-top: -300px;
-  }
-
-
-  .galeria{
-      background-color: transparent;
-      align-items: center;
-      justify-content: center;
-      display: block;
-      margin-left: 400px;
-      width: 1210px;
-      height: 500px;
-  }
-
-  .figura_estrutura{
-      display: block;
-      width: 350px;
-      height: 200px;
-  }
-
-  .figura_estrutura2{
-    margin-top: 20px;
-    display: block;
-    width: 350px;
-    height: 200px;
+  margin-top: 100px;
+  display: block;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  font-weight: 100;
+  color: black;
+  margin-left: 50px;
 }
 
-.figura_estrutura3{
-    margin-top: -420px;
-    display: block;
-    width: 350px;
-    height: 200px;
-    margin-left: 400px;
+.estrutura {
+  font-family: "Playfair Display", serif;
+  margin-top: -50px;
+  display: block;
+  text-align: center;
+  font-size: 105px;
+  font-weight: 1000;
+  margin-top: -100px;
 }
 
-.figura_estrutura4{
-    margin-top: 20px;
-    display: block;
-    width: 350px;
-    height: 200px;
-    margin-left: 400px;
+.pipe {
+  font-family: "Raleway Especial";
+  font-weight: 10;
+  font-size: 100px;
+  color: #585858;
+  margin-left: -80px;
 }
 
-.figura_estrutura5{
-    margin-top: -420px;
-    display: block;
-    width: 350px;
-    height: 200px;
-    margin-left: 800px;
+.nav {
+  display: flex;
 }
 
-.figura_estrutura6{
-    margin-top: 20px;
-    display: block;
-    width: 350px;
-    height: 200px;
-    margin-left: 800px;
+.li:hover {
+  text-decoration: underline;
 }
 
-
-.button{
-    display: block;
-    align-items: center;
-    justify-content: center;
-    border: solid 2px #FE6192;
-    border-radius: 20px;
-    width: 300px;
-    height: 50px;
-    margin-left: 430px;
-    margin-top: 50px;
-    font-size: 15px;
-    color: #FE6192;
+.menu {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 400px;
+  padding: 10px;
 }
 
-.button:hover{
-    background-color: #FE6192;
-    color: #fff;
+.li {
+  list-style-type: none;
+  margin: 10px;
 }
-  .fim {
-    margin-top: 400px;
-  }
-  
+
+.a {
+  color: #585858;
+  font-size: 20px;
+}
+
+.figura_imagem {
+  display: block;
+  margin-left: 1500px;
+  margin-top: -300px;
+}
+
+.galeria {
+  background-color: transparent;
+  align-items: center;
+  justify-content: center;
+  display: block;
+  margin-left: 400px;
+  width: 1210px;
+  height: 500px;
+}
+
+.figura_estrutura {
+  display: block;
+  width: 350px;
+  height: 200px;
+}
+
+.figura_estrutura2 {
+  margin-top: 20px;
+  display: block;
+  width: 350px;
+  height: 200px;
+}
+
+.figura_estrutura3 {
+  margin-top: -420px;
+  display: block;
+  width: 350px;
+  height: 200px;
+  margin-left: 400px;
+}
+
+.figura_estrutura4 {
+  margin-top: 20px;
+  display: block;
+  width: 350px;
+  height: 200px;
+  margin-left: 400px;
+}
+
+.figura_estrutura5 {
+  margin-top: -420px;
+  display: block;
+  width: 350px;
+  height: 200px;
+  margin-left: 800px;
+}
+
+.figura_estrutura6 {
+  margin-top: 20px;
+  display: block;
+  width: 350px;
+  height: 200px;
+  margin-left: 800px;
+}
+
+.figura_estrutura:hover {
+  opacity: 0.3;
+}
+
+.figura_estrutura2:hover {
+  opacity: 0.3;
+}
+
+.figura_estrutura3:hover {
+  opacity: 0.3;
+}
+
+.figura_estrutura4:hover {
+  opacity: 0.3;
+}
+
+.figura_estrutura5:hover {
+  opacity: 0.3;
+}
+
+.figura_estrutura6:hover {
+  opacity: 0.3;
+}
+
+.button {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  border: solid 2px #fe6192;
+  border-radius: 20px;
+  width: 300px;
+  height: 50px;
+  margin-left: 430px;
+  margin-top: 50px;
+  font-size: 15px;
+  color: #fe6192;
+}
+
+.button:hover {
+  background-color: #fe6192;
+  color: #fff;
+}
+.fim {
+  margin-top: 400px;
+}

@@ -65,30 +65,46 @@ export default function Estrutura() {
 
         <div className={styles.galeria}>
           <article>
-            <img
-              className={styles.figura_estrutura}
-              src="/images/morfofuncional.jpg"
-            ></img>
-            <img
-              className={styles.figura_estrutura2}
-              src="/images/morfofuncional.jpg"
-            ></img>
-            <img
-              className={styles.figura_estrutura3}
-              src="/images/morfofuncional.jpg"
-            ></img>
-            <img
-              className={styles.figura_estrutura4}
-              src="/images/morfofuncional.jpg"
-            ></img>
-            <img
-              className={styles.figura_estrutura5}
-              src="/images/morfofuncional.jpg"
-            ></img>
-            <img
-              className={styles.figura_estrutura6}
-              src="/images/morfofuncional.jpg"
-            ></img>
+            <a href="">
+              <img
+                className={styles.figura_estrutura}
+                src="/images/morfofuncional.jpg"
+              />
+            </a>
+            <a href="">
+              <img
+                className={styles.figura_estrutura2}
+                src="/images/morfofuncional.jpg"
+              />
+            </a>
+
+            <a href="">
+              <img
+                className={styles.figura_estrutura3}
+                src="/images/morfofuncional.jpg"
+              />
+            </a>
+
+            <a href="">
+              <img
+                className={styles.figura_estrutura4}
+                src="/images/morfofuncional.jpg"
+              />
+            </a>
+
+            <a href="">
+              <img
+                className={styles.figura_estrutura5}
+                src="/images/morfofuncional.jpg"
+              />
+            </a>
+
+            <a href="">
+              <img
+                className={styles.figura_estrutura6}
+                src="/images/morfofuncional.jpg"
+              />
+            </a>
           </article>
           <button className={styles.button}>CONHEÇA TODA A ESTRUTURA</button>
         </div>
