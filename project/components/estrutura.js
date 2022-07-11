@@ -64,49 +64,27 @@ export default function Estrutura() {
         </nav>
 
         <div className={styles.galeria}>
-          <article>
-            <a href="">
-              <img
-                className={styles.figura_estrutura}
-                src="/images/morfofuncional.jpg"
-              />
+          <div className={styles.gallery}>
+            <a href="/images/morfofuncional.jpg">
+              <img src="/images/morfofuncional.jpg" />
             </a>
-            <a href="">
-              <img
-                className={styles.figura_estrutura2}
-                src="/images/morfofuncional.jpg"
-              />
+            <a href="/images/morfofuncional.jpg">
+              <img src="/images/morfofuncional.jpg" />
             </a>
-
-            <a href="">
-              <img
-                className={styles.figura_estrutura3}
-                src="/images/morfofuncional.jpg"
-              />
+            <a href="/images/morfofuncional.jpg" >
+              <img src="/images/morfofuncional.jpg" />
             </a>
-
-            <a href="">
-              <img
-                className={styles.figura_estrutura4}
-                src="/images/morfofuncional.jpg"
-              />
+            <a href="/images/morfofuncional.jpg">
+              <img src="/images/morfofuncional.jpg" />
             </a>
-
-            <a href="">
-              <img
-                className={styles.figura_estrutura5}
-                src="/images/morfofuncional.jpg"
-              />
+            <a href="/images/morfofuncional.jpg" >
+              <img src="/images/morfofuncional.jpg" />
             </a>
-
-            <a href="">
-              <img
-                className={styles.figura_estrutura6}
-                src="/images/morfofuncional.jpg"
-              />
+            <a href="/images/morfofuncional.jpg" >
+              <img src="/images/morfofuncional.jpg" />
             </a>
-          </article>
-          <button className={styles.button}>CONHEÇA TODA A ESTRUTURA</button>
+          </div>
+          <button className={styles.button} src="#">CONHEÇA TODA A ESTRUTURA</button>
         </div>
       </section>
 
