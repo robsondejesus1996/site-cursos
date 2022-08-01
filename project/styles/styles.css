@@ -5,6 +5,13 @@
   text-decoration: none;
 }
 
+.espacemento {
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  padding-top: 100px;
+}
+
 body {
   background-color: #fff;
 }
@@ -23,7 +30,6 @@ body {
 }
 
 .navbar {
-  
   width: 100%;
   z-index: 999;
   padding: 10px 0;
@@ -33,7 +39,6 @@ body {
 }
 
 .navbar {
-  
 }
 
 .navbar .max-width {
@@ -42,7 +47,7 @@ body {
   justify-content: space-between;
 }
 
-.navbar .menu li a:hover{
+.navbar .menu li a:hover {
   color: #fe6192;
 }
 

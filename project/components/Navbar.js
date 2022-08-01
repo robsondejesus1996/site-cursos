@@ -18,63 +18,69 @@ export default function Navbar() {
           </div>
           <ul className="menu">
             <li>
-              <a href="/" className="menu-btn">
+              <a href="../SobreCurso" className="menu-btn">
                 SOBRE
                 <br />
                 CURSO
               </a>
             </li>
             <li>
-              <a href="/" className="menu-btn">
+              <a href="../UnidadesCurriculares" className="menu-btn">
                 UNIDADES
                 <br />
                 CURRICULARES
               </a>
             </li>
             <li>
-              <a href="/" className="menu-btn">
+              <a href="../CorpoDocente" className="menu-btn">
                 CORPO
                 <br />
                 DOCENTE
               </a>
             </li>
             <li>
-              <a href="/" className="menu-btn">
+              <a href="../ProjetoPedagogico" className="menu-btn">
                 PROJETO
                 <br />
                 PEDAGÓGICO
               </a>
             </li>
             <li>
-              <a href="/" className="menu-btn">
+              <a href="../NossaEstrutura" className="menu-btn">
                 NOSSA
                 <br />
                 ESTRUTURA
               </a>
             </li>
             <li>
-              <a href="/" className="menu-btn">
+              <a href="../OutrasAtividades" className="menu-btn">
                 OUTRAS
                 <br />
                 ATIVIDADES
               </a>
             </li>
             <li>
-              <a href="https://unidavi.edu.br/cursos" className="menu-btn">
+              <a href="../Cursos" className="menu-btn">
                 OUTROS
                 <br />
                 CURSOS
               </a>
             </li>
             <li>
-              <a href="/" className="menu-btn">
-            
-                <button className="botaoInteresse"><i class="fa-brands fa-whatsapp"></i>TENHO <br/>INTERESSE</button>
+              <a
+                href="https://unidavi.edu.br/cursos/cadastroInteresse"
+                className="menu-btn"
+                target="_blank"
+              >
+                <button className="botaoInteresse">
+                  <i class="fa-brands fa-whatsapp"></i>TENHO <br />
+                  INTERESSE
+                </button>
               </a>
             </li>
           </ul>
           <div className="menu-btn">
-          <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-bars"></i>
           </div>
         </div>
       </nav>
