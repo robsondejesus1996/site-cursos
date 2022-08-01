@@ -23,7 +23,7 @@ body {
 }
 
 .navbar .logo a {
-  margin-left: -200px;
+  margin-left: -90px;
   color: black;
   font-size: 35px;
   font-weight: 500;
@@ -52,7 +52,7 @@ body {
 }
 
 .navbar .menu li {
-  margin-left: 30px;
+  margin-left: 20px;
   list-style: none;
   display: inline-flex;
 }

@@ -84,7 +84,7 @@ export default function Estrutura() {
               <img src="/images/morfofuncional.jpg" />
             </a>
           </div>
-          <button className={styles.button} src="../NossaEstrutura">CONHEÇA TODA A ESTRUTURA</button>
+          <button className={styles.button}  href="../NossaEstrutura">CONHEÇA TODA A ESTRUTURA</button>
         </div>
       </section>
 
