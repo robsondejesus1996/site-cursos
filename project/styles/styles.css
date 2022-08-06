@@ -5,7 +5,6 @@
   text-decoration: none;
 }
 
-
 .espacemento {
   align-items: center;
   justify-content: center;
@@ -129,4 +128,58 @@ body {
   .max-width {
     max-width: 930px;
   }
+}
+
+/*Estilo componente Accordion*/
+
+.container {
+  width: 100%;
+  max-width: 480px;
+  margin: auto;
+}
+
+.accordion {
+  width: 100%;
+  max-width: 540px;
+  margin: 18px auto;
+  color: black;
+}
+
+.accordionHeading {
+  background-color: #0d47a1;
+  padding: 14px 0;
+}
+
+.accordionHeading .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.accordionHeading p {
+  letter-spacing: 1.2px;
+  font-weight: 600;
+}
+
+.accordionHeading span {
+  cursor: pointer;
+}
+
+.accordionContet {
+  background-color: #fff;
+  height: 0;
+  opacity: 0;
+  display: flex;
+  overflow: hidden;
+  transition: all 600ms ease-in-out;
+}
+
+.accordionContet.show {
+  height: 180px;
+  opacity: 1;
+}
+
+.accordionContet p {
+  font-size: 15px;
+  line-height: 1.6;
 }
