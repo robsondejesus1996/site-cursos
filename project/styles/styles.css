@@ -130,22 +130,33 @@ body {
   }
 }
 
-/*Estilo componente Accordion*/
+.h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+/*Estilo componente Accordion*/
+.alinhamento {
+  display: flex;
+  align-items: center;
+  margin-left: 500px;
+}
 .container {
   width: 100%;
-  max-width: 480px;
+  max-width: 780px;
   margin: auto;
 }
 
 .accordion {
   width: 100%;
-  max-width: 540px;
+  max-width: 840px;
   margin: 18px auto;
   color: black;
 }
 
 .accordionHeading {
+  border-radius: 5px;
   background-color: #0d47a1;
   padding: 14px 0;
 }
@@ -166,7 +177,7 @@ body {
 }
 
 .accordionContet {
-  background-color: #fff;
+  background-color: #f2f2f2;
   height: 0;
   opacity: 0;
   display: flex;
