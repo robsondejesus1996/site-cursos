@@ -136,6 +136,14 @@ body {
   justify-content: center;
 }
 
+.p{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
 /*Estilo componente Accordion*/
 .alinhamento {
   display: flex;

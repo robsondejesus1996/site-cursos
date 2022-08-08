@@ -1,0 +1,28 @@
+.body {
+  padding: 50px;
+  background-color: #0a3981;
+  color: #fff;
+  width: 1930px;
+}
+
+.h1 {
+  text-align: center;
+}
+
+.professores {
+  background-color: #fff;
+  width: 350px;
+  height: 650px;
+}
+
+.p {
+  color: black;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.figura_coordenador {
+  width: 350px;
+  height: 500px;
+}

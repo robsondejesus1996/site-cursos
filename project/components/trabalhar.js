@@ -12,7 +12,7 @@ export default function Trabalhar() {
   return (
     <>
       <section>
-        <div className="container">
+        <div className="">
           <div className="heading-block">
             <h6
               className={styles.pergunta}

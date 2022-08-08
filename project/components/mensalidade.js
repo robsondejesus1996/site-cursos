@@ -11,7 +11,7 @@ export default function Mensalidade() {
   return (
     <>
       <section className={styles.secao}>
-        <div className="container">
+        <div className="">
           <div className="heading-block">
             
 

@@ -13,7 +13,7 @@ export default function SobreCurso() {
   return (
     <>
       <section>
-        <div className="container">
+        <div className="">
           <div className="heading-block">
             <h6 className={styles.pergunta} data-wow-delay="0.4s" data-aos="fade-left">
               POR QUE ESTE

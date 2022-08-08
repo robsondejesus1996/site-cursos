@@ -12,7 +12,7 @@ export default function CadastroInteresse() {
   return (
     <>
       <section className={styles.body}>
-        <div className="container">
+        <div className="">
           <div className="heading-block">
             <h6 className={styles.pergunta} data-wow-delay="0.4s" data-aos="fade-left">
               ENTRE EM
