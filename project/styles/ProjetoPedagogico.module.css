@@ -1,0 +1,23 @@
+.body {
+  padding: 50px;
+  background-color: #0a3981;
+  color: #fff;
+  width: 1930px;
+}
+
+.periodico{
+    width: 50%;
+    margin-top: 100px;
+    margin-left: 450px;
+}
+
+.p {
+  color: black;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  padding: 50px;
+  margin: 10px;
+  width: 50%;
+  margin-left: 450px;
+}
