@@ -1,9 +1,14 @@
 import Link from "next/link";
+import AccordionProjetos from "../components/AccordionProjetos";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import styles from "../styles/ProjetoPedagogico.module.css";
+import React, { useState } from "react";
 
 export default function ProjetoPedagogico() {
+
+  const [active, setActive] = useState("Periódicos Online");
+
   return (
     <>
       <div>
@@ -31,6 +36,8 @@ export default function ProjetoPedagogico() {
           <section className={styles.periodico}>
             <h1>PERIÓDICOS DO CURSO</h1>
             <hr />
+            <AccordionProjetos title="Periódicos Online" active={active} setActive={setActive}/>
+            <AccordionProjetos title="Periódicos Online2" active={active} setActive={setActive}/>
           </section>
         </div>
       </div>

@@ -145,6 +145,7 @@ body {
 }
 
 /*Estilo componente Accordion*/
+
 .alinhamento {
   display: flex;
   align-items: center;
@@ -201,4 +202,9 @@ body {
 .accordionContet p {
   font-size: 15px;
   line-height: 1.6;
+}
+
+
+.a{
+  color: Blue;
 }
