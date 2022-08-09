@@ -6,7 +6,7 @@ import styles from "../styles/ProjetoPedagogico.module.css";
 import React, { useState } from "react";
 
 export default function OutrasAtividades() {
-  const [active, setActive] = useState("Periódicos Online");
+  const [active, setActive] = useState("Ligas Acadêmicas de Meidina");
 
   return (
     <>
@@ -24,12 +24,12 @@ export default function OutrasAtividades() {
             <h1>Atividades</h1>
             <hr />
             <AccordionAtividades
-              title="Periódicos Online"
+              title="Ligas Acadêmicas de Meidina"
               active={active}
               setActive={setActive}
             />
             <AccordionAtividades
-              title="Periódicos Online2"
+              title="Programa de Monitorias Medicina"
               active={active}
               setActive={setActive}
             />

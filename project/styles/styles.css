@@ -136,12 +136,11 @@ body {
   justify-content: center;
 }
 
-.p{
+.p {
   padding: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
-  
 }
 
 /*Estilo componente Accordion*/
@@ -204,7 +203,16 @@ body {
   line-height: 1.6;
 }
 
-
-.a{
+.a {
   color: Blue;
+}
+
+.p_liga {
+  margin-left: 100px;
+  width: 300px;
+}
+.liga_medicina {
+  width: 300px;
+  margin-top: -180px;
+  margin-left: 300px;
 }

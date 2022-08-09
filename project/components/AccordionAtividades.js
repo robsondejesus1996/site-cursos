@@ -17,17 +17,12 @@ const AccordionProjetos = ({ title, active, setActive }) => {
           <h1 className="h1">
             Centro Acadêmico de Medicina do Alto Vale do Itajaí
           </h1>
-          <p className="p">
-            O Centro Acadêmico de Medicina do Alto Vale do Itajaí, doravante
-            denominado CAMAVI, fundado em 19 de Agosto de 2019, representa e
-            defende os interesses e direitos dos acadêmicos de Medicina do
-            Centro Universitário para o Desenvolvimento do Alto Vale do Itajaí
-            (UNIDAVI) perante os poderes públicos constituídos, sejam eles
-            federais, estaduais, municipais, autárquicos, bem como em instâncias
-            deliberativas e consultivas da UNIDAVI. O CAMAVI têm como objetivo
-            aperfeiçoar constantemente as condições do ensino médico e o
-            desenvolvimento cultural e político dos estudantes de Medicina. Link
-            Instagram: https://www.instagram.com/camavi/
+          <p className="p_liga">
+            Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto
+            Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto
+            Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto
+            Texto Texto Texto Texto Texto Texto Texto Texto Texto
+            <img className="liga_medicina" src="/images/liga_medicina.png" />
           </p>
         </div>
       </div>
