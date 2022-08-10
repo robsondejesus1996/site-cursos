@@ -1,41 +1,41 @@
-import Link from "next/link";
-import AccordionAtividades from "../components/AccordionAtividades";
-import Footer from "../components/Footer";
+import Card from "@mui/material/Card";
+import CardActions from "@mui/material/CardActions";
+import CardContent from "@mui/material/CardContent";
+import CardMedia from "@mui/material/CardMedia";
+import Button from "@mui/material/Button";
+import Typography from "@mui/material/Typography";
 import Navbar from "../components/Navbar";
-import styles from "../styles/ProjetoPedagogico.module.css";
+import AccordionAtividades from "../components/AccordionAtividades";
+import GaleriaVideos from "../components/GaleriaVideos";
+import Mensalidade from "../components/mensalidade";
+import Footer from "../components/Footer";
+import styles from "../styles/CorpoDocente.module.css";
+import { Accordion } from "@mui/material";
 import React, { useState } from "react";
 
 export default function OutrasAtividades() {
-  const [active, setActive] = useState("Ligas Acadêmicas de Meidina");
+  const [active, setActive] = useState("Ligas Acadêmicas de Meidina1");
 
   return (
     <>
-      <div>
-        <Navbar />
+      <Navbar />
+      <div className={styles.espacamento}>
+        <section className={styles.body}>
+          <p className="">Outras Atividades</p>
+          <h1>Conheça as outras atividades do curso de Medicina</h1>
 
-        <div className="espacemento">
-          <section className={styles.body}>
-            <p className="">Outras Atividades</p>
-            <h1>Conheça as outras atividades do curso de Medicina</h1>
-            <hr />
-          </section>
-
-          <section className={styles.periodico}>
-            <h1>Atividades</h1>
-            <hr />
-            <AccordionAtividades
-              title="Ligas Acadêmicas de Meidina"
-              active={active}
-              setActive={setActive}
-            />
-            <AccordionAtividades
-              title="Programa de Monitorias Medicina"
-              active={active}
-              setActive={setActive}
-            />
-          </section>
-        </div>
+          <hr />
+        </section>
       </div>
+      <AccordionAtividades
+        title="Ligas Acadêmicas de Meidina"
+        active={active}
+        setActive={setActive}
+      />
+      
+      
+      <GaleriaVideos/>
+      <Footer />
     </>
   );
 }

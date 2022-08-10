@@ -60,7 +60,7 @@ export default function Navbar() {
               </a>
             </li>
             <li>
-              <a href="../Cursos" className="menu-btn">
+              <a href="https://www.unidavi.edu.br/cursos" className="menu-btn">
                 OUTROS
                 <br />
                 CURSOS

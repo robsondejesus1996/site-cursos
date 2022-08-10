@@ -20,8 +20,7 @@ const AccordionProjetos = ({ title, active, setActive }) => {
           <p className="p_liga">
             Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto
             Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto
-            Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto
-            Texto Texto Texto Texto Texto Texto Texto Texto Texto
+            Texto Texto Texto Texto Texto Texto 
             <img className="liga_medicina" src="/images/liga_medicina.png" />
           </p>
         </div>
