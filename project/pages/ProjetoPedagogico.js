@@ -1,46 +1,40 @@
-import Link from "next/link";
-import AccordionProjetos from "../components/AccordionProjetos";
-import Footer from "../components/Footer";
+import Card from "@mui/material/Card";
+import CardActions from "@mui/material/CardActions";
+import CardContent from "@mui/material/CardContent";
+import CardMedia from "@mui/material/CardMedia";
+import Button from "@mui/material/Button";
+import Typography from "@mui/material/Typography";
 import Navbar from "../components/Navbar";
-import styles from "../styles/ProjetoPedagogico.module.css";
+import AccordionProjetos from "../components/AccordionProjetos";
+import GaleriaVideos from "../components/GaleriaVideos";
+import Mensalidade from "../components/mensalidade";
+import Footer from "../components/Footer";
+import styles from "../styles/CorpoDocente.module.css";
+import { Accordion } from "@mui/material";
 import React, { useState } from "react";
 
 export default function ProjetoPedagogico() {
-
-  const [active, setActive] = useState("Periódicos Online");
-
+  const [active, setActive] = useState("Periódicos Online1");
   return (
     <>
-      <div>
-        <Navbar />
+      <Navbar />
+      <div className={styles.espacamento}>
+        <section className={styles.body}>
+          <p className="">Projeto Pedagógico</p>
+          <h1>Conheça o Projeto Pedagógico do curso de Medicina</h1>
 
-        <div className="espacemento">
-          <section className={styles.body}>
-            <p className="">Projeto Pedagógico</p>
-            <h1>Conheça o Projeto Pedagógico do curso de Medicina</h1>
-            <hr />
-          </section>
-
-          <section className={styles.descricao_projeto}>
-            <p className={styles.p}>
-              É o instrumento que norteia as ações do curso e visa a qualidade
-              do ensino e da formação profissional do acadêmico. Este documento
-              detalha ainda as disciplinas e ementas, estratégias de ensino,
-              práticas pedagógicas diferenciadas, atividades de pesquisa e
-              extensão, perfil do corpo docente e discente e todas as demais
-              atividades desenvolvidas para atender ao objetivo do curso e
-              perfil profissiográfico.
-            </p>
-          </section>
-
-          <section className={styles.periodico}>
-            <h1>PERIÓDICOS DO CURSO</h1>
-            <hr />
-            <AccordionProjetos title="Periódicos Online" active={active} setActive={setActive}/>
-            <AccordionProjetos title="Periódicos Online2" active={active} setActive={setActive}/>
-          </section>
-        </div>
+          <hr />
+        </section>
       </div>
+      <AccordionProjetos
+        title="Periódicos Online"
+        active={active}
+        setActive={setActive}
+      />
+
+      <GaleriaVideos />
+
+      <Footer />
     </>
   );
 }
