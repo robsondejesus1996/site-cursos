@@ -1,19 +1,39 @@
-import React, { useState } from "react";
-import Link from "next/link";
-import Accordion from "../components/Accordion";
+import Card from "@mui/material/Card";
+import CardActions from "@mui/material/CardActions";
+import CardContent from "@mui/material/CardContent";
+import CardMedia from "@mui/material/CardMedia";
+import Button from "@mui/material/Button";
+import Typography from "@mui/material/Typography";
 import Navbar from "../components/Navbar";
+import Accordion from "../components/Accordion";
+import GaleriaVideos from "../components/GaleriaVideos";
+import Mensalidade from "../components/mensalidade";
 import Footer from "../components/Footer";
+import styles from "../styles/CorpoDocente.module.css";
+import AccordionAtividades from "../components/AccordionAtividades";
 
+import React, { useState } from "react";
 export default function UnidadesCurriculares() {
-  const [active, setActive] = useState("Conhecimentos Gerais I");
+  const [active, setActive] = useState("Ligas Acadêmicas de Meidina1");
 
   return (
     <>
-      <div>
-        <Navbar />
+      <Navbar />
+      <div className={styles.espacamento}>
+        <section className={styles.body}>
+          <p className="" data-aos="fade-left">
+            Unidades Curriculares
+          </p>
+          <h1 data-aos="fade-up">
+            Conheça as Unidades Curriculares do curso de Medicina
+          </h1>
 
-        <div className="espacemento">
-          <h1 className="h1">1° Fase</h1>
+          <hr />
+        </section>
+      </div>
+      
+      <div className="alinhamento_unidades_curriculares">
+      <h1 className="h1">1° Fase</h1>
           <Accordion
             title="Conhecimentos Gerais I"
             active={active}
@@ -34,8 +54,11 @@ export default function UnidadesCurriculares() {
             active={active}
             setActive={setActive}
           />
-        </div>
       </div>
+      
+
+      <GaleriaVideos />
+      <Footer />
     </>
   );
 }

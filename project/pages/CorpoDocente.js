@@ -42,7 +42,7 @@ export default function CorpoDocente() {
           </CardActions>
         </Card>
         
-        <Mensalidade />
+        
         <Footer />
       </div>
     </>

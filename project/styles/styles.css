@@ -145,6 +145,10 @@ body {
 
 /*Estilo componente Accordion*/
 
+.alinhamento_unidades_curriculares{
+  margin-left: -500px;
+}
+
 .alinhamento {
   display: flex;
   align-items: center;
@@ -162,6 +166,7 @@ body {
   max-width: 840px;
   margin: 18px auto;
   color: black;
+  
 }
 
 .accordionHeading {
