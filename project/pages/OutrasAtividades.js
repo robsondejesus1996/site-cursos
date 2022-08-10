@@ -21,8 +21,12 @@ export default function OutrasAtividades() {
       <Navbar />
       <div className={styles.espacamento}>
         <section className={styles.body}>
-          <p className="">Outras Atividades</p>
-          <h1>Conheça as outras atividades do curso de Medicina</h1>
+          <p className="" data-aos="fade-left">
+            Outras Atividades
+          </p>
+          <h1 data-aos="fade-up">
+            Conheça as outras atividades do curso de Medicina
+          </h1>
 
           <hr />
         </section>
@@ -32,9 +36,8 @@ export default function OutrasAtividades() {
         active={active}
         setActive={setActive}
       />
-      
-      
-      <GaleriaVideos/>
+
+      <GaleriaVideos />
       <Footer />
     </>
   );

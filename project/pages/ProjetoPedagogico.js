@@ -20,8 +20,12 @@ export default function ProjetoPedagogico() {
       <Navbar />
       <div className={styles.espacamento}>
         <section className={styles.body}>
-          <p className="">Projeto Pedagógico</p>
-          <h1>Conheça o Projeto Pedagógico do curso de Medicina</h1>
+          <p className="" data-aos="fade-left">
+            Projeto Pedagógico
+          </p>
+          <h1 data-aos="fade-up">
+            Conheça o Projeto Pedagógico do curso de Medicina
+          </h1>
 
           <hr />
         </section>

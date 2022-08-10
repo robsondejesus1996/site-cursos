@@ -15,10 +15,9 @@ export default function CorpoDocente() {
     <>
       <Navbar />
       <div className={styles.espacamento}>
-        <h1 className="h1">Professores do Curso</h1>
-        <p className={styles.p}>
-          Conheça os professores do curso de MBA em Gestão de Instituições
-          Financeiras Cooperativas
+        <h1 className="h1" data-aos="fade-up">Professores do Curso</h1>
+        <p className={styles.p} data-aos="fade-left">
+          Conheça os professores do curso de Medicina
         </p>
         <Card sx={{ maxWidth: 345 }}>
           <CardMedia
@@ -42,6 +41,7 @@ export default function CorpoDocente() {
             <Button size="small">Veja Mais</Button>
           </CardActions>
         </Card>
+        
         <Mensalidade />
         <Footer />
       </div>
