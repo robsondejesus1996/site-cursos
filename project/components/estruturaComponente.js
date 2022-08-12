@@ -76,3 +76,6 @@ const EstruturaComponente = ({ galleryImages }) => {
 };
 
 export default EstruturaComponente;
+
+
+/*https://www.youtube.com/watch?v=J1dg4WXr3cg&t=46s&ab_channel=WebStylePress*/
