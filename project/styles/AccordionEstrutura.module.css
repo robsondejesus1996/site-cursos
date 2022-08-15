@@ -38,3 +38,14 @@
   text-align: justify;
   justify-content: center;
 }
+
+.espacamento {
+  padding-top: 100px;
+}
+
+.body {
+  padding: 50px;
+  background-color: #0a3981;
+  color: #fff;
+  width: 1930px;
+}

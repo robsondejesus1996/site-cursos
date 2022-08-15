@@ -18,7 +18,7 @@ export default function Navbar() {
           </div>
           <ul className="menu">
             <li>
-              <a href="../SobreCurso" className="menu-btn">
+              <a href="/" className="menu-btn">
                 SOBRE
                 <br />
                 CURSO

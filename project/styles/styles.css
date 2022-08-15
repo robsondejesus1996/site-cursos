@@ -145,10 +145,15 @@ body {
 
 /*Estilo componente Accordion*/
 
-.alinhamento_unidades_curriculares{
+.alinhamento_unidades_curriculares {
   margin-left: -500px;
 }
 
+
+.alinhamento_estrutura{
+  margin-left: -100px;
+
+}
 .alinhamento {
   display: flex;
   align-items: center;
@@ -158,7 +163,6 @@ body {
   width: 100%;
   max-width: 780px;
   margin: auto;
-  
 }
 
 .accordion {
@@ -166,7 +170,6 @@ body {
   max-width: 840px;
   margin: 18px auto;
   color: black;
-  
 }
 
 .accordionHeading {
@@ -190,8 +193,7 @@ body {
   cursor: pointer;
 }
 
-
-.accordionContetEstrutura{
+.accordionContetEstrutura {
   background-color: #f2f2f2;
   height: 0;
   opacity: 0;
@@ -200,7 +202,7 @@ body {
   transition: all 600ms ease-in-out;
 }
 
-.accordionContetEstrutura.show{
+.accordionContetEstrutura.show {
   height: 500px;
   opacity: 1;
 }
@@ -219,11 +221,9 @@ body {
   opacity: 1;
 }
 
-
-.accordionContetEstrutura p{
+.accordionContetEstrutura p {
   font-size: 15px;
   line-height: 1.6;
-  
 }
 
 .accordionContet p {

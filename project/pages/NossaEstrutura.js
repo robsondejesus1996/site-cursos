@@ -1,21 +1,42 @@
-import Link from "next/link";
 import Navbar from "../components/Navbar";
-import AccordionEstrutura from "../components/AccordionEstrutura.js"
+import GaleriaVideos from "../components/GaleriaVideos";
+import Footer from "../components/Footer";
+import AccordionEstrutura from "../components/AccordionEstrutura";
 import styles from "../styles/AccordionEstrutura.module.css";
-import { useState } from "react";
 
+import React, { useState } from "react";
 export default function NossaEstrutura() {
-  const [active, setActive] = useState("LABORATÓRIO MORFOFUNCIONAL I E II");
-  return (
-    <div>
-      <Navbar />
+  const [active, setActive] = useState("Nome estrutura");
 
-      <div className="espacemento">
-        <div className={styles.div_estrutura}>
-        <AccordionEstrutura title="LABORATÓRIO MORFOFUNCIONAL I E II" active={active} setActive={setActive} />
-        <AccordionEstrutura title="LABORATÓRIO MORFOFUNCIONAL " active={active} setActive={setActive} />
-        </div>
+  return (
+    <>
+      <Navbar />
+      <div className={styles.espacamento}>
+        <section className={styles.body}>
+          <p className="" data-aos="fade-left">
+            Estrutura
+          </p>
+          <h1 data-aos="fade-up">Conheça a estrutura do curso de Medicina</h1>
+
+          <hr />
+        </section>
       </div>
-    </div>
+
+      <div className="alinhamento_estrutura">
+        <AccordionEstrutura
+          title="LABORATÓRIO MORFOFUNCIONAL I E II"
+          active={active}
+          setActive={setActive}
+        />
+        <AccordionEstrutura
+          title="LABORATÓRIO MORFOFUNCIONAL "
+          active={active}
+          setActive={setActive}
+        />
+      </div>
+
+      <GaleriaVideos />
+      <Footer />
+    </>
   );
 }
