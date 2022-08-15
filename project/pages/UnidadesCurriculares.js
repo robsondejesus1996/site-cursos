@@ -13,6 +13,7 @@ import styles from "../styles/CorpoDocente.module.css";
 import AccordionAtividades from "../components/AccordionAtividades";
 import React, { useState } from "react";
 import Noticias from "../components/Noticias";
+import Modal from "../components/Modal";
 
 
 
