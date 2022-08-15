@@ -1,4 +1,15 @@
 .alinhamento_div {
   margin-top: 100px;
-  margin-left: 100px;
+  margin-left: 200px;
+}
+
+
+.card{
+    margin-top: 50px;
+    display: inline-table;
+    padding: 20px;
+}
+
+.hr{
+    width: 1330px;
 }

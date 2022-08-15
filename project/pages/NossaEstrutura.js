@@ -1,6 +1,7 @@
 import Navbar from "../components/Navbar";
 import GaleriaVideos from "../components/GaleriaVideos";
 import Footer from "../components/Footer";
+import Noticias from "../components/Noticias"
 import AccordionEstrutura from "../components/AccordionEstrutura";
 import styles from "../styles/AccordionEstrutura.module.css";
 
@@ -35,6 +36,7 @@ export default function NossaEstrutura() {
         />
       </div>
 
+      <Noticias />
       <GaleriaVideos />
       <Footer />
     </>
