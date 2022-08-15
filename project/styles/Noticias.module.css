@@ -3,13 +3,20 @@
   margin-left: 200px;
 }
 
-
-.card{
-    margin-top: 50px;
-    display: inline-table;
-    padding: 20px;
+.card {
+  margin-top: 50px;
+  display: inline-table;
+  padding: 20px;
 }
 
-.hr{
-    width: 1330px;
+.hr {
+  width: 1330px;
+}
+
+.galeriaNoticias {
+  font-family: "Montserrat", sans-serif;
+  color: #4000ff;
+  display: block;
+  margin-left: 1240px;
+  width: 200px;
 }

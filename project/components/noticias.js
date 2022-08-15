@@ -14,7 +14,10 @@ export default function Noticias() {
         <h2 className={styles.h2} data-aos="fade-up">
           Noticias do Curso de Medicina
         </h2>
-        <hr className={styles.hr}/>
+        <a href="" className={styles.galeriaNoticias}>
+          <i class="fas fa-angle-double-right"></i> Veja Mais
+        </a>
+        <hr className={styles.hr} />
 
         <Card className={styles.card} sx={{ maxWidth: 445, maxHeight: 800 }}>
           <CardMedia
