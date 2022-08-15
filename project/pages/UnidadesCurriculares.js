@@ -11,8 +11,11 @@ import Mensalidade from "../components/mensalidade";
 import Footer from "../components/Footer";
 import styles from "../styles/CorpoDocente.module.css";
 import AccordionAtividades from "../components/AccordionAtividades";
-
 import React, { useState } from "react";
+import Noticias from "../components/Noticias";
+
+
+
 export default function UnidadesCurriculares() {
   const [active, setActive] = useState("Ligas Acadêmicas de Meidina1");
 
@@ -56,6 +59,7 @@ export default function UnidadesCurriculares() {
         />
       </div>
 
+      <Noticias />
       <GaleriaVideos />
       <Footer />
     </>
