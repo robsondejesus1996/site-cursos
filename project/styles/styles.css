@@ -190,6 +190,21 @@ body {
   cursor: pointer;
 }
 
+
+.accordionContetEstrutura{
+  background-color: #f2f2f2;
+  height: 0;
+  opacity: 0;
+  display: flex;
+  overflow: hidden;
+  transition: all 600ms ease-in-out;
+}
+
+.accordionContetEstrutura.show{
+  height: 500px;
+  opacity: 1;
+}
+
 .accordionContet {
   background-color: #f2f2f2;
   height: 0;
@@ -202,6 +217,13 @@ body {
 .accordionContet.show {
   height: 180px;
   opacity: 1;
+}
+
+
+.accordionContetEstrutura p{
+  font-size: 15px;
+  line-height: 1.6;
+  
 }
 
 .accordionContet p {

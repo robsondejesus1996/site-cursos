@@ -1,0 +1,40 @@
+.imagem_geral {
+  display: inline-flex;
+  width: 350px;
+  margin-left: 450px;
+  margin-top: -350px;
+}
+.imagem1 {
+  display: inline-flex;
+  width: 210px;
+}
+
+.imagem2 {
+  display: inline-flex;
+  width: 210px;
+}
+
+.imagem3 {
+  display: inline-flex;
+  width: 210px;
+}
+
+.imagem4 {
+  display: inline-flex;
+  width: 210px;
+}
+
+.div_estrutura {
+  margin-left: 400px;
+}
+
+.hr {
+  padding: 10px;
+}
+
+.descricao_estrutura {
+  padding: 5px;
+  width: 400px;
+  text-align: justify;
+  justify-content: center;
+}
