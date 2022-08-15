@@ -11,7 +11,9 @@ export default function Noticias() {
   return (
     <div className={styles.alinhamento_div}>
       <section>
-        <h1 className="h1">Noticias do Curso de Medicina</h1>
+        <h1 className="h1" data-aos="fade-up">
+          Noticias do Curso de Medicina
+        </h1>
         <Card sx={{ maxWidth: 445, maxHeight: 800 }}>
           <CardMedia
             component="img"
