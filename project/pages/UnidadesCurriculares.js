@@ -9,6 +9,7 @@ import Accordion from "../components/Accordion";
 import GaleriaVideos from "../components/GaleriaVideos";
 import Mensalidade from "../components/mensalidade";
 import Footer from "../components/Footer";
+import WhatsappFixo from "../components/WhatsappFixo";
 import styles from "../styles/CorpoDocente.module.css";
 import AccordionAtividades from "../components/AccordionAtividades";
 import React, { useState } from "react";
@@ -62,6 +63,7 @@ export default function UnidadesCurriculares() {
 
       <Noticias />
       <GaleriaVideos />
+      <WhatsappFixo />
       <Footer />
     </>
   );

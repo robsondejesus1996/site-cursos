@@ -9,6 +9,7 @@ import Navbar from "../components/Navbar";
 import Mensalidade from "../components/mensalidade";
 import Footer from "../components/Footer";
 import styles from "../styles/CorpoDocente.module.css";
+import WhatsappFixo from "../components/WhatsappFixo";
 
 export default function CorpoDocente() {
   return (
@@ -42,7 +43,7 @@ export default function CorpoDocente() {
           </CardActions>
         </Card>
         
-        
+        <WhatsappFixo />
         <Footer />
       </div>
     </>

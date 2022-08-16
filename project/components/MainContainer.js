@@ -16,7 +16,7 @@ import Noticias from "./depoimento";
 import GaleriaVideos from "./GaleriaVideos";
 import CadastroInteresse from "./cadastroInteresse";
 import Footer from "./Footer";
-import Teste from "./Teste";
+import WhatsappFixo from "./WhatsappFixo";
 
 import styles from "../styles/MainContainer.module.css";
 
@@ -56,7 +56,7 @@ export default function MainContainer({ children }) {
     <>
       
       <Navbar />
-      <Teste />
+      <WhatsappFixo />
       {/*<div className={styles.container}>{children}</div>*/}
       <InfoCurso />
       <SobreCurso />

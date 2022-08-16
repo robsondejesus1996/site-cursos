@@ -3,6 +3,7 @@ import GaleriaVideos from "../components/GaleriaVideos";
 import Footer from "../components/Footer";
 import Noticias from "../components/Noticias"
 import AccordionEstrutura from "../components/AccordionEstrutura";
+import WhatsappFixo from "../components/WhatsappFixo";
 import styles from "../styles/AccordionEstrutura.module.css";
 
 import React, { useState } from "react";
@@ -37,6 +38,7 @@ export default function NossaEstrutura() {
       </div>
 
       <Noticias />
+      <WhatsappFixo />
       <GaleriaVideos />
       <Footer />
     </>

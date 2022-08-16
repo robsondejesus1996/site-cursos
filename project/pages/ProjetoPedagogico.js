@@ -10,6 +10,7 @@ import GaleriaVideos from "../components/GaleriaVideos";
 import Mensalidade from "../components/mensalidade";
 import Footer from "../components/Footer";
 import Noticias from "../components/Noticias";
+import WhatsappFixo from "../components/WhatsappFixo";
 import styles from "../styles/CorpoDocente.module.css";
 import { Accordion } from "@mui/material";
 import React, { useState } from "react";
@@ -38,7 +39,7 @@ export default function ProjetoPedagogico() {
       />
        <Noticias />
       <GaleriaVideos />
-
+      <WhatsappFixo />
       <Footer />
     </>
   );
