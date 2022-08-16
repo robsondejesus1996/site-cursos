@@ -3,25 +3,30 @@
   width: 350px;
   margin-left: 450px;
   margin-top: -350px;
+  padding: 1px;
 }
 .imagem1 {
   display: inline-flex;
   width: 210px;
+  padding: 2px;
 }
 
 .imagem2 {
   display: inline-flex;
   width: 210px;
+  padding: 2px;
 }
 
 .imagem3 {
   display: inline-flex;
   width: 210px;
+  padding: 2px;
 }
 
 .imagem4 {
   display: inline-flex;
   width: 210px;
+  padding: 2px;
 }
 
 .div_estrutura {
@@ -30,12 +35,14 @@
 
 .hr {
   padding: 10px;
+  
 }
 
 .descricao_estrutura {
+  margin: 10px;
   padding: 5px;
   width: 400px;
-  text-align: justify;
+  text-align: unset;
   justify-content: center;
 }
 
@@ -48,4 +55,10 @@
   background-color: #0a3981;
   color: #fff;
   width: 1930px;
+}
+
+
+.b{
+ padding: 1px;
+ margin: 5px;
 }

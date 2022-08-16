@@ -35,7 +35,7 @@ const AccordionEstrutura = ({ title, active, setActive }) => {
           </p>
 
           <p>
-            <b>
+            <b className={styles.b}>
               Veja mais fotos da estrutura - Laboratório Morfofuncional I e II
             </b>
           </p>

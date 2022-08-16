@@ -15,11 +15,11 @@ const AccordionProjetos = ({ title, active, setActive }) => {
       <div className={(active === title ? "show" : "") + " accordionContet"}>
           <div className="container">
             <p>
-              <a className="a" href=""><i class="fa-solid fa-arrow-right"></i>&nbsp; American Journal of Health Studies | On-line Assinatura | Mentor / EBSCO</a><br/>
-              <a className="a" href=""><i class="fa-solid fa-arrow-right"></i>&nbsp; American Journal of Public Health | On-line | Acesso livre</a><br/>
-              <a className="a" href=""><i class="fa-solid fa-arrow-right"></i>&nbsp; Chest Journal | On-line Assinatura | Mentor / EBSCO</a><br/>
-              <a className="a" href=""><i class="fa-solid fa-arrow-right"></i>&nbsp; New England Journal of Medicine | On-line | Acesso livre</a><br/>
-              <a className="a" href=""><i class="fa-solid fa-arrow-right"></i>&nbsp; Anaesthesia and Intensive care Medicine | On-line Assinatura | Mentor / EBSCO</a><br/>
+              <a className="a" href="https://ajph.aphapublications.org/" target="_blank"><i class="fa-solid fa-arrow-right"></i>&nbsp; American Journal of Health Studies | On-line Assinatura | Mentor / EBSCO</a><br/>
+              <a className="a" href="https://ajph.aphapublications.org/" target="_blank"><i class="fa-solid fa-arrow-right"></i>&nbsp; American Journal of Public Health | On-line | Acesso livre</a><br/>
+              <a className="a" href="https://ajph.aphapublications.org/" target="_blank"><i class="fa-solid fa-arrow-right"></i>&nbsp; Chest Journal | On-line Assinatura | Mentor / EBSCO</a><br/>
+              <a className="a" href="https://ajph.aphapublications.org/" target="_blank"><i class="fa-solid fa-arrow-right"></i>&nbsp; New England Journal of Medicine | On-line | Acesso livre</a><br/>
+              <a className="a" href="https://ajph.aphapublications.org/" target="_blank"><i class="fa-solid fa-arrow-right"></i>&nbsp; Anaesthesia and Intensive care Medicine | On-line Assinatura | Mentor / EBSCO</a><br/>
             </p>
           </div>
         </div>
