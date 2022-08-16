@@ -16,6 +16,7 @@ import Noticias from "./depoimento";
 import GaleriaVideos from "./GaleriaVideos";
 import CadastroInteresse from "./cadastroInteresse";
 import Footer from "./Footer";
+import Teste from "./Teste";
 
 import styles from "../styles/MainContainer.module.css";
 
@@ -53,7 +54,9 @@ export default function MainContainer({ children }) {
 
   return (
     <>
+      
       <Navbar />
+      <Teste />
       {/*<div className={styles.container}>{children}</div>*/}
       <InfoCurso />
       <SobreCurso />
