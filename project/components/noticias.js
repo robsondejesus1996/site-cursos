@@ -316,6 +316,8 @@ export default function Noticias() {
             </Modal>
           </CardActions>
         </Card>
+              
+        <button className={styles.button}>Ver Todas as notícias</button>
       </section>
     </div>
   );

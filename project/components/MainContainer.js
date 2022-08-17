@@ -12,7 +12,7 @@ import DetalhesCurso from "./detalhesCurso";
 import FormasIngresso from "./formaIngresso";
 import Mensalidade from "./mensalidade";
 import Depoimentos from "./depoimento";
-import Noticias from "./depoimento";
+import Noticias from "./noticias"
 import GaleriaVideos from "./GaleriaVideos";
 import CadastroInteresse from "./cadastroInteresse";
 import Footer from "./Footer";
@@ -69,6 +69,7 @@ export default function MainContainer({ children }) {
       <DetalhesCurso />
       <FormasIngresso />
       <Mensalidade />
+      <Depoimentos />
       <Noticias />
       <GaleriaVideos />
       <CadastroInteresse />
