@@ -259,3 +259,16 @@ body {
   margin-top: -180px;
   margin-left: 300px;
 }
+
+
+
+/*Estilo componentes de identificação pagina*/
+
+.pagina_id{
+  margin-left: 150px;
+}
+
+.hr {
+  width: 1330px;
+  margin-left: 150px;
+}

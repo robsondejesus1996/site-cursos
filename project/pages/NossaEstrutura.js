@@ -15,12 +15,12 @@ export default function NossaEstrutura() {
       <Navbar />
       <div className={styles.espacamento}>
         <section className={styles.body}>
-          <p className="" data-aos="fade-left">
+          <p className="pagina_id" data-aos="fade-left">
             Estrutura
           </p>
-          <h1 data-aos="fade-up">Conheça a estrutura do curso de Medicina</h1>
+          <h1 className="pagina_id" data-aos="fade-up">Conheça a estrutura do curso de Medicina</h1>
 
-          <hr />
+          <hr className="hr"/>
         </section>
       </div>
 

@@ -39,13 +39,14 @@
 
 .hr {
   background-color: #a4a4a4;
+  width: 1330px;
 }
 
 .galeriaVeja {
   font-family: "Montserrat", sans-serif;
   color: #4000ff;
   display: block;
-  margin-left: 1390px;
+  margin-left: 1240px;
   width: 200px;
 }
 

@@ -26,14 +26,14 @@ export default function UnidadesCurriculares() {
       <Navbar />
       <div className={styles.espacamento}>
         <section className={styles.body}>
-          <p className="" data-aos="fade-left">
+          <p className="pagina_id" data-aos="fade-left">
             Unidades Curriculares
           </p>
-          <h1 data-aos="fade-up">
+          <h1 className="pagina_id"data-aos="fade-up">
             Conheça as Unidades Curriculares do curso de Medicina
           </h1>
 
-          <hr />
+          <hr className="hr" />
         </section>
       </div>
 
