@@ -5,8 +5,8 @@ const AccordionProjetos = ({ title, active, setActive }) => {
     <div className="accordion">
       <div className="accordionHeading">
         <div className="container">
-          <p>{title}</p>
-          <span onClick={() => setActive(title)}>
+          <p className="p_accordion">{title}</p>
+          <span className="p_accordion" onClick={() => setActive(title)}>
             {active == title ? "X" : "|||"}
           </span>
         </div>

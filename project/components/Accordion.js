@@ -6,9 +6,9 @@ const Accordion = ({ title, active, setActive }) => {
       <div className="accordion">
         <div className="accordionHeading">
           <div className="container">
-            <p>{title}</p>
-            <span onClick={() => setActive(title)}>
-              <i class="fa-solid fa-building"></i>Presencial &nbsp; &nbsp;
+            <p className="p_accordion">{title}</p>
+            <span className="p_accordion"onClick={() => setActive(title)}>
+              <i class="fa-solid fa-building"></i> Presencial &nbsp; &nbsp;
               <i class="fa-solid fa-clock"></i>126H &nbsp; &nbsp;
               {active == title ? "|||" : <i class="fa-solid fa-arrow-down"></i>}
             </span>

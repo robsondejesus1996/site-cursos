@@ -150,6 +150,12 @@ body {
   justify-content: center;
 }
 
+.p_accordion{
+  color: #fff;
+}
+
+
+
 /*Estilo componente Accordion*/
 
 .alinhamento_unidades_curriculares {

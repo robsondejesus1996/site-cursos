@@ -39,7 +39,7 @@ export default function UnidadesCurriculares() {
 
       <div className="alinhamento_unidades_curriculares">
         <h2 className="h2">1° Fase</h2>
-        <Accordion
+        <Accordion 
           title="Conhecimentos Gerais I"
           active={active}
           setActive={setActive}
