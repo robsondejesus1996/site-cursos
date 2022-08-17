@@ -73,7 +73,7 @@ export default function Navbar() {
                 target="_blank"
               >
                 <button className="botaoInteresse">
-                  <i class="fa-brands fa-whatsapp"></i>TENHO <br />
+                  TENHO <br />
                   INTERESSE
                 </button>
               </a>
