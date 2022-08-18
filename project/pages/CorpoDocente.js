@@ -16,7 +16,6 @@ export default function CorpoDocente() {
     <>
       <Navbar />
       <div className={styles.espacamento}>
-        
         <h1 className="h1">Conheça os docentes do curso de Medicina</h1>
 
         <div className={styles.cards_professores}>
