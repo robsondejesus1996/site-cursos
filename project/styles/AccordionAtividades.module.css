@@ -1,0 +1,64 @@
+.imagem_geral {
+    display: inline-flex;
+    width: 350px;
+    margin-left: 450px;
+    margin-top: -350px;
+    padding: 1px;
+  }
+  .imagem1 {
+    display: inline-flex;
+    width: 210px;
+    padding: 2px;
+  }
+  
+  .imagem2 {
+    display: inline-flex;
+    width: 210px;
+    padding: 2px;
+  }
+  
+  .imagem3 {
+    display: inline-flex;
+    width: 210px;
+    padding: 2px;
+  }
+  
+  .imagem4 {
+    display: inline-flex;
+    width: 210px;
+    padding: 2px;
+  }
+  
+  .div_estrutura {
+    margin-left: 400px;
+  }
+  
+  .hr {
+    padding: 0;
+  
+  }
+  
+  .descricao_estrutura {
+    margin: 10px;
+    padding: 5px;
+    width: 400px;
+    text-align: unset;
+    justify-content: center;
+  }
+  
+  .espacamento {
+    padding-top: 100px;
+  }
+  
+  .body {
+    padding: 50px;
+    background-color: #0a3981;
+    color: #fff;
+    width: 1930px;
+  }
+  
+  
+  .b{
+   padding: 1px;
+   margin: 5px;
+  }

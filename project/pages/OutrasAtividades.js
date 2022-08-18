@@ -33,7 +33,7 @@ export default function OutrasAtividades() {
         </section>
       </div>
       <AccordionAtividades
-        title="Ligas Acadêmicas de Meidina"
+        title="Atlética de Medicina"
         active={active}
         setActive={setActive}
       />
